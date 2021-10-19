@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<addon
+	id="skin.sky.16"
+	version="1.0"
+	name="[COLOR lime]Sky[/COLOR]  (16)"
+	provider-name="ClassicNancy">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.skinshortcuts" version="0.6.5"/>
+		<import addon="script.skin.helper.service" version="1.0.60"/>
+	</requires>
+	<extension
+		point="xbmc.gui.skin"
+		debugging="false"
+		effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<forum>https://forums.tvaddons.ag/kodi-look-and-feel/ </forum>
+		<website>https://www.tvaddons.ag/</website>
+		<platform>all</platform>
+	</extension>
+</addon>

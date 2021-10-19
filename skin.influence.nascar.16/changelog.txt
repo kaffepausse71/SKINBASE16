@@ -1,0 +1,44 @@
+[B]1.2.1[/B]
+Portage du skin pour Jarvis
+
+
+[B]1.1.7[/B]
+Utilisation du fork de service.skin.widget par Lyksyr
+[B]1.1.6[/B]
+Implémentation de service.skin.widget avec les films récents et les épisodes recommandés
+[B]1.1.5[/B]
+Rajout de la suppression du fond d'écran
+[B]1.1.4[/B]
+Correction d'un bug génant l'affichage du menu OpenELEC
+[B]1.1.3[/B]
+Version finale
+[B]1.1.2a[/B]
+Correction de bug
+[B]1.1.0a[/B]
+Version Isengard alpha
+
+[B]1.0.7[/B]
+Affichage d'un fanart pour le dossier ".." dans le cas des séries
+
+[B]1.0.6[/B]
+Diverses retouches pour l'international
+
+[B]1.0.5[/B]
+Modifications des icons pour plus de transparence
+
+[B]1.0.4[/B]
+Refonte complète de la gestion des Menus
+
+[B]1.0.3[/B]
+Utilisation de skinshortcut pour gérer les entrées de menu
+
+[B]1.0.2[/B]
+Paramétrage du mode kiosque
+Prise en charge du paramètrage système OpenELEC
+
+[B]1.0.1[/B]
+Correction d'un bug pour changer l'arriere-plan du menu système
+
+[B]1.0.0[/B]
+
+Version initiale

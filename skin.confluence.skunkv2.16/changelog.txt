@@ -1,0 +1,18 @@
+[B]1.0.1[/B]
+- Bugfix: Fehler in der Menüführung behoben
+- Bugfix: Fehler in den Widgets behoben
+- Filmansicht hinzugefügt
+
+[B]1.0.0[/B]
+
+- Hauptmenü,Submenü,Addonmenü und Widgets einstellbar
+- Menüs nach unten setzen
+- 3 Themen hinzugefügt
+- 1 Schriftart hinzugefügt
+- Hüllen Ansicht hinzugefügt
+- Logo verstecken hinzugefügt
+- Floor.png verstecken hinzugefügt
+- Power und Favoriten Button verstecken hinzugefügt
+- Medien Statistik hinzugefügt
+- Systemleistung auf der Hauptseite hinzugefügt
+- usw.

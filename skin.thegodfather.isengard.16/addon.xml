@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="skin.thegodfather.isengard.16"
+  version="1.1"
+  name="[COLOR lime]The Godfather[/COLOR]  (16)"
+  provider-name="Godfather Mod by ClassicNancy |Created by BigNoid | Modded by SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.2.4"/>
+		<import addon="service.library.data.provider" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<description lang="en">Completely redesigned by ClassicNancy to create a new modern look. Thank you to BigNoid and Silvo for their awesome skin.</description>
+		<forum>https://forums.tvaddons.ag/kodi-look-and-feel/ </forum>
+		<website>https://www.tvaddons.ag/</website>
+		<platform>all</platform>
+	</extension>
+</addon>

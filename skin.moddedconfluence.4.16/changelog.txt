@@ -1,0 +1,32 @@
+[B]Confluence Mod 4.1 Version 1.1.0[/B]
+- Umstellung auf Isengard
+
+[B]Confluence Mod 4 Version 1.0.5[/B]
+- Bugfix: 2 Favouriten Menüpunkte waren standardmäßig aktiviert
+- Änderung: das Ausblenden der Videoinformatioen im Vollbild wird beim verlassen des Vollbildes wieder rückgängig gemacht
+
+[B]Confluence Mod 4 Version 1.0.4[/B]
+- Fullscreeninfos lassen sich im OSD ausblenden
+- Hauptmenü kann transparent geschaltet werden
+- Übersetzung und aktuelle Icons aus Confluence kopiert
+- neuer Untermenüpunkt bei Filmen - "im Gange"
+- Bugfix: Skineinstellungen - Benutzerdefinierte Favouriten Schalter
+
+[B]Confluence Mod 4 Version 1.0.3[/B]
+- alte, unütze Einstellungen aus den Skineinstellungen entfernt
+- DialogAddonInfo - kleinere optische Fehler beseitigt
+- Fehler in der Addon Ansicht behoben. Label waren nicht korrekt positioniert
+
+[B]Confluence Mod 4 Version 1.0.2[/B]
+- offizielles Kodilogo eingesetzt
+- kleinere Bugfixes im Widget
+- Statistikanzeige auf HD und Doku erweitert
+
+[B]Confluence Mod 4 Version 1.0.1[/B]
+- Bugfix: Keyboard - Darstellungsfehler behoben
+- Änderung: XBMC Logo ersetzt
+
+[B]Confluence Mod 4 Version 1.0.0[/B]
+- Portierung nach Helix
+- neues Icon
+- kleinere Bugfixes

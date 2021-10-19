@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.estuary.16" version="0.7.9.023" name="[COLOR lime]Estuary[/COLOR]  (16)" provider-name="phil65, Piers, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+	</requires>
+	<extension
+		point="xbmc.gui.skin"
+		defaultthemename="Textures.xbt"
+		debugging="false"
+		effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>http://forum.kodi.tv/</forum>
+		<source>https://github.com/xbmc/skin.estuary/</source>
+	</extension>
+</addon>
