@@ -1,0 +1,3271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.aeon.nox.silvo" name="Aeon Nox: SiLVO Repository" version="1.0.5" provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Aeon Nox: SiLVO Repo">
+		<dir minversion="15.0.0">
+			<info compressed="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/isengard/addons.xml</info>
+			<checksum>https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/isengard/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/isengard</datadir>
+		</dir>
+		<dir minversion="16.0.0">
+			<info compressed="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/jarvis/addons.xml</info>
+			<checksum>https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/jarvis/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/jarvis</datadir>
+		</dir>
+		<dir minversion="17.0.0">
+			<info compressed="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/krypton/addons.xml</info>
+			<checksum>https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/krypton</datadir>
+		</dir>
+		<dir minversion="17.9.0">
+			<info compressed="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/leia/addons.xml</info>
+			<checksum>https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/leia</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>My version of Aeon Nox 5</summary>
+		<description>Main Repository for Aeon Nox: SiLVO</description>
+		<platform>all</platform>
+		<news>[I]v1.0.5[/I][CR]- Leia support</news>
+	</extension>
+</addon>
+
+<addon id="repository.skinbase.16" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 16" version="3.1.20" provider-name="[COLOR orange]GUIDO[/COLOR] | [COLOR skyblue]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
+	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
+	<dir>
+		<info compressed="false">https://downloads.guidos-skinbase.de/skins16/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/skins16/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/skins16/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://downloads.guidos-skinbase.de/addons17/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/addons17/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/addons17/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR orange]G[/COLOR]uido[COLOR orange]s[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Repo</summary>
+		<description lang="de_DE">In Guidos SKINBASE findet ihr Skins für die Kodi Versionen von 16 bis 19 aus aller Welt.
+Die Skins sind für die jeweiligen Kodi Versionen farblich markiert. Des weiteren findet ihr auch weitere Repos sowie alle Addons Abhängikeiten in der Repo die für die Skins benötigt werden.
+Die SkinBase wird ständig erweitert und verbessert. Hinzugekommen sind Skins mit Topics Loader , diese sind EXTRA mit Roter schrift versehen und ermöglichen mit einem Skin unzählige Themen oder Hintergrundbilder zu wechseln. Viel Spass wünschen euch Guido und sowie das SKINBASE TEAM.</description>
+		<description lang="en_GB">In Guidos SKINBASE you will find skins for the Kodi versions from 16 to 19 from all over the world.
+The skins are color-coded for the respective Kodi versions. Furthermore, you will also find other repos and all addons dependencies in the repo that are required for the skins.
+The SkinBase is constantly being expanded and improved. Added to this are skins with Topics Loader, these are EXTRA with red letters and allow you to change countless themes or background images with one skin. Guido and the SKINBASE TEAM wish you lots of fun.</description>
+        <platform>all</platform>
+		<assets>
+		<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshot-06.jpg</screenshot>
+			<screenshot>resources/screenshot-07.jpg</screenshot>
+			<screenshot>resources/screenshot-08.jpg</screenshot>
+			<screenshot>resources/screenshot-09.jpg</screenshot>
+			<screenshot>resources/screenshot-10.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="resource.images.recordlabels.white" name="Recordlabel Icons - White" version="0.0.7" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="true" type="recordlabels" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">White Recordlabel Icons</summary>
+		<description lang="en">White Recordlabel Icons</description>
+		<platform>all</platform>
+		<license>Creative Commons Attribution-Share Alike 3.0 United States</license>
+	</extension>
+</addon>
+
+<addon id="resource.images.studios.white" name="Studio Icons - White" version="0.0.28" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="true" type="studios" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">White Studio Icons</summary>
+		<description lang="en">White Studio Icons</description>
+		<platform>all</platform>
+		<license>Creative Commons Attribution-Share Alike 3.0 United States</license>
+	</extension>
+</addon>
+
+<addon id="resource.images.weatherfanart.multi" name="Weather Fanart - Multi" version="0.0.6" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="false" type="weather" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Weather Fanart Multi</summary>
+		<description lang="en">Multiple Weather Fanart images for every weather condition</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="resource.images.weatherfanart.single" name="Weather Fanart - Single" version="0.0.6" provider-name="Silverxxx,Team Kodi">
+	<extension point="kodi.resource.images" compile="false" type="weather" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Weather Fanart Single</summary>
+		<description lang="en">A single Weather Fanart image for every weather condition</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="resource.images.weathericons.outline" name="Weather Icons - Outline" version="0.0.6" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="true" type="weather" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Outline Weather Icons</summary>
+		<description lang="en">Weather Icons in an outline style</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="resource.language.de_de"
+  version="2.0.9"
+  name="German"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="de_DE">
+    <charsets>
+      <gui unicodefont="false">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>Der</token>
+      <token>Die</token>
+      <token>Das</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">German language pack</summary>
+    <description lang="en">German version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="resource.uisounds.apptv" version="1.0.4" name="AppTV UI Sounds" provider-name="Wyrm">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">AppTV GUI sounds</summary>
+    <description lang="en">AppTV GUI sounds</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+    id="script.artwork.downloader"
+    name="Artwork Downloader"
+    version="13.1.0"
+    provider-name="Martijn"
+    >
+  <requires>
+    <import addon="xbmc.python"                 version="2.1.0"/>
+    <import addon="xbmc.json"                   version="6.0.0"/>
+    <import addon="xbmc.addon"                  version="12.0.0"/>
+    <import addon="script.module.simplejson"    version="3.3.0"/>
+    <import addon="script.common.plugin.cache"  version="1.3.0"/>
+  </requires>
+  <extension point="xbmc.python.script"         library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="be">Downloads Artwork for TV shows, Movies and Musicvideos in your library</summary>
+    <summary lang="da">Downloader grafik til TV-serier, Film og Musikvideoer i dit bibliotek</summary>
+    <summary lang="de">Lade Artworks fÃ¼r Filme, Serien und Musikvideos deiner Bibliothek herunter</summary>
+    <summary lang="el">Κατεβάζει Εικόνες για τις Τηλεοπτικές Σειρές, τις Ταινίες και τα Μουσικά Βίντεο της συλλογής σας</summary>
+    <summary lang="en">Downloads Artwork for TV shows, Movies and Musicvideos in your library</summary>
+    <summary lang="es">Descargue Artwork de Series, Pelí­culas y Videoclips a su biblioteca</summary>
+    <summary lang="fr">Téléchargez les Artworks pour les séries TV, les films et les clip vidéo de votre médiathèque</summary>
+    <summary lang="gl">Descargue na súa biblioteca Ilustracións para as Series de TV, Filmes e Vídeos Musicais</summary>
+    <summary lang="he">מורי עטיפות לתוכניות טלויזיה,סרטים,וסרטי מוסיקה בספריה שלך</summary>
+    <summary lang="hr">Preuzimte slike omota TV serija, filmova i glazbenih spotova u vašoj kolekciji</summary>
+    <summary lang="hu">Művészképek letöltése TV műsorok, filmek és videóklipek számára</summary>
+    <summary lang="it">Scarica artwork per Serie TV, Film e Video musicali della tua libreria</summary>
+    <summary lang="ko">라이브러리의 TV 쇼, 영화, 뮤직비디오의 아트워크 다운로드</summary>
+    <summary lang="nl">Download Artwork voor TV series, Films en Muziekvideos in jouw bibliotheek</summary>
+    <summary lang="pl">Pobiera grafiki dla Seriali TV, FilmÃ³w i TeledyskÃ³w z twojej biblioteki</summary>
+    <summary lang="pt">Transfira Artwork de Séries TV, Filmes e Concertos para sua biblioteca</summary>
+    <summary lang="pt_BR">Transferências Artes de Seriados, Filmes e Concertos para suas Coleções.</summary>
+    <summary lang="sk">Sťahuje umeleckú grafiku k TV seriálom, filmom a hudobným videám vo Vašej knižnici</summary>
+    <summary lang="sv">Laddar ner bilder och extramaterial för TV-serierna, filmerna och musikvideorna i ditt bibliotek</summary>
+    <summary lang="zh">下载剧集、电影和音乐电视艺术图片到资料库</summary>
+    <description lang="be">Downloads all available artwork for TV shows, Movies and Musicvideos in your library. Check the options for supported artwork[CR]Artwork sources:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check your skin to see what type of artwork is supported![CR]Each TV Show/Movie must have its own folder![CR]Skin integration:[CR]See readme file</description>
+    <description lang="da">Henter alle tilgængelige illustrationer til TV-serier, Film og Musikvideoer i dit bibliotek. Tjek indstillingerne for at se understøttede illustrationer.[CR]Kilder til illustrationer[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Bemærk:[CR]Tjek dit skin for at se, hvilke typer illustrationer, der understøttes![CR]Hver TV-serie/Film skal have sin egen mappe![CR]Skin-integration:[CR]Se 'readme' fil</description>
+    <description lang="de">Downloadet alle verfügbaren Artworks für TV Sendungen, Filme und Musikvideos in deine Datenbank. Überprüfe die Optionen für nicht unterstützte Artwork[CR]Artworkquellen: [CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Überprüfe dein Skin ob Artwork unterstützt wird![CR]Jede TV Sendung/Film braucht seinen eigenen Ordner![CR]Skin Integration:[CR]Siehe Readme Datei</description>
+    <description lang="el">Κατεβάζει όλες τις διαθέσιμες εικόνες για τις Τηλεοπτικές Σειρές, τις Ταινίες και τα Μουσικά Βίντεο της συλλογής σας. Ελέγξτε τις επιλογές για υποστηριζόμενες εικόνες[CR]&#10;Πηγές Εικόνων:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]&#10;Σημείωση:[CR]Ελέγξτε το κέλυφός σας για να δείτε τι είδους εικόνες υποστηρίζονται![CR]Κάθε Σειρά/Ταινία πρέπει να έχει το δικό της φάκελο![CR]&#10;Για ενσωμάτωση στο κέλυφος:[CR]Δείτε το αρχείο readme</description>
+    <description lang="en">Downloads all available artwork for TV shows, Movies and Musicvideos in your library. Check the options for supported artwork[CR]Artwork sources:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check your skin to see what type of artwork is supported![CR]Each TV Show/Movie must have its own folder![CR]Skin integration:[CR]See readme file</description>
+    <description lang="es">Descarga artwork de programas de televisión, películas y videos musicales en su biblioteca. Marque las opciones correspondientes compatible d artwork[CR]Artwork:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check su piel para ver qué tipo de obra de arte es compatible![CR]Cada Show de TV\/película debe tener su propia carpeta![CR]Integración de la piel: [CR] consulte el archivo Léame</description>
+    <description lang="fr">Téléchargez tous les artworks disponibles pour les séries TV, les films et les vidéos musicales de votre médiathèque. Regardez les options pour les artsworks supportés[CR]Sources des Artworks : [CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remarques : [CR]Véifiez votre thême pour savoir quel type d'artwork est supporté ![CR]Chaque Série TV/Film doit avoir son propre dossier ![CR]Intégration dans un thême :[CR]Regardez le fichier readme.txt</description>
+    <description lang="gl">Descarga todas as ilustracións dispoñíbeis para as series de TV, filmes e vídeos musicais da súa biblioteca. Verifique as opcións de soporte de ilustracións[CR]Fontes das ilustracións:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Lembre:[CR]Verifique o seu tema para ver que tipo de ilustración é soportada.[CR]Cada Serie de TV/Filme debe ter o seu propio cartafol.[CR]Integración no tema:[CR]Ver o ficheiro readme</description>
+    <description lang="hr">Preuzmi sve dostupne slike omota za TV serije, filmove i glazbene spotove u vašoj zbirci. Provjerite mogućnosti za podržane slike omota[CR]Izvori slika omota:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Napomena:[CR]Provjerite vašu presvlaku da bi vidjeli koja vrsta presvlake je podržana![CR]Svaka TV serija/Film mora imati svoju vlastitu mapu![CR]Integracija presvlake:[CR]Pogledajte datoteku uputa</description>
+    <description lang="hu">Letölti az összes rendelkezésre álló művészképet az adatbázisában található TV-műsorokhoz, filmekhez és videóklipekhez. Ellenőrizze a beállításokat a támogatott művészképekhez[CR]Művészkép források:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Megjegyzés:[CR]Ellenőrizze, hogy az alkalmazott skin miyen művészképeket támogat![CR]Minden filmnek/TV-műsornak saját mappában kell lennie![CR]Skin integráció:[CR]Olvassa fel a readme fájlt</description>
+    <description lang="it">Scarica tutti gli artwork disponibili per le serie TV, i film ed i video musicali presenti nella libreria. Controlla le opzioni per gli artwork supportati[CR]Fonti artwork:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Nota:[CR]Controlla la tua skin per vedere che tipi artwork sono supportati![CR]Ogni Serie TV/Film deve avere una cartella propria![CR]Integrazione skin:[CR]Vedi file readme</description>
+    <description lang="ko">라이브러리에 있는 TV 쇼, 영화, 뮤직비디오의 사용 가능한 모든 아트워크를 다운로드합니다. 지원하는 아트워크는 옵션을 확인하세요[CR]아트워크 소스:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR] 참고:[CR]사용하는 스킨이 어떤 형식의 아트워크를 지원하는지 확인하세요![CR]각 TV 쇼/영화는 자신의 폴더에 있어야 합니다![CR]스킨 통합:[CR]readme 파일 참고</description>
+    <description lang="nl">Download alle beschikbare artwork voor TV series, Films en Muziekvideos in jouw bibliotheek. Bekijk de opties voor ondersteunde artwork[CR]Artwork bronnen:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Opmerking:[CR]Controleer jouw skin om te bepalen welke artwork deze ondersteund![CR]Elke TV serie/Film moet zich in zijn eigen folder bevinden![CR]Skin integratie:[CR]Kijk in de readme bestand</description>
+    <description lang="pl">Pobierz wszystkie dostępne grafiki dla seriali TV, filmów i teledysków ze swojej biblioteki. Sprawdź ustawienia aby zobaczyć wszystkie dostępne grafiki[CR]&#10;    Źródła grafik:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]&#10;    Uwaga:[CR]Sprawdź jakie rodzaje grafik wspiera twoja skóra![CR]Każdy Serial TV/Film musi być w osobnym folderze![CR]&#10;    Integracja ze skórą:[CR]Przeczytaj plik readme&#10;    </description>
+    <description lang="pt">Transfere toda a artwork disponível para Séries TV, Filmes e Vídeoclipes na sua biblioteca. Verifique a artwork suportada nas opções.[CR]Fontes de Artwork:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Lembre-se:[CR]Verifique o seu tema para ver que tipo de artwork é suportada![CR]Cada Série TV/Filme deve ter a sua própria pasta![CR]Integração no tema:[CR]veja o ficheiro readme</description>
+    <description lang="pt_BR">Download todas as artworks disponíveis para Seriados, Filmes e Concertos em sua coleção. Verifique as opções de artes suportadas. &#10;Artwork fontes:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Lembrete:[CR]Verifique se sua skin tem suporte para os tipos de artes disponíveis![CR]Cada Seriado/Filme ou Concerto deve estar em pastas próprias![CR]Skin integração:[CR]Veja o arquivo leia-me.</description>
+    <description lang="sk">Sťahuje umeleckú grafiku k TV seriálom, filmom a hudobným videám vo Vašej knižnici. Na overenie podporovanej umeleckej grafiky pozrite nastavenia.&#10;Zdroje umeleckej grafiky:&#10;www.fanart.tv&#10;www.thetvdb.com&#10;www.themoviedb.org&#10;Poznámka:&#10;Aby ste si overili aká umelecká grafika je podporovaná, skontrolujte Váš Vzhľad!&#10;Každý TV seriál / film musí byť v samostatnom priečinku!&#10;Integrácia so vzhľadom:&#10;Pozri readme súbor</description>
+    <description lang="sv">Laddar ner alla tillgängliga omslag, bakgrunder etc för TV-serier, Filmer och Musikvideos till ditt bibliotek. Kontrollera inställningar för vad som stöds[CR] Omslag, bakgrunder etc hämtas från följande resurser:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR] Remark:[CR]Kontrollera skalinställningar för att ta reda på vad som stöds![CR]Varje TV-serie/Film måste ha sin egen mapp![CR] Skalintegration:[CR]See readme file</description>
+    <description lang="zh">下载剧集、电影和音乐电视的所有可用艺术图片到资料库。查看支持的艺术图片选项[CR]&#10;艺术图片来源：[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]&#10; 备注：[CR]查看你的皮肤了解支持什么类型的艺术图片！[CR]每一个剧集/电影必须保存在单独的文件夹中！[CR]&#10; 皮肤集成：[CR]参见readme文件</description>
+    <disclaimer lang="be">For bugs, requests or general questions visit the Artwork Downloader thread on the XBMC forum.</disclaimer>
+    <disclaimer lang="da">Ved fejl, forespørgsler eller generelle spørgsmål besøg Artwork Downloader-tråden i XBMCs forum.</disclaimer>
+    <disclaimer lang="de">FÃ¼r Fehler, VorschlÃ¤ge oder alggemeine Fragen, besuche das Artwork Downloader-Thema im XBMC-Forum (englisch).</disclaimer>
+    <disclaimer lang="el">Για προβλήματα, αιτήματα ή γενικές ερωτήσεις επισκεφθείτε το θέμα του Artwork Downloader στο forum του XBMC.</disclaimer>
+    <disclaimer lang="en">For bugs, requests or general questions visit the Artwork Downloader thread on the XBMC forum.</disclaimer>
+    <disclaimer lang="es">Para informar de errores, hacer peticiones o preguntas visiten el hilo Artwork Downloader en el foro de XBMC.</disclaimer>
+    <disclaimer lang="fr">Pour bugs, demandes ou questions générales visiter le thread Artwork Downloader sur le forum XBMC.</disclaimer>
+    <disclaimer lang="gl">Para erros, solicitudes ou preguntas en xeral visite o fio do Artwork Downloader no foro do XBMC.</disclaimer>
+    <disclaimer lang="he">לדווח תקלות,בקשות או שאלות כלליות בקר ברשימת artwork downloader בפורום של XBMC.</disclaimer>
+    <disclaimer lang="hr">Za greške, zahtjeve ili uobičajena pitanja posjetite Artwork Downloader na XBMC forumu.</disclaimer>
+    <disclaimer lang="hu">Hibabejelentéshez, kérésekhez vagy általános kérdésekkel kapcsolatban keresse az Artwork Downloader témát az XBMC fórumon.</disclaimer>
+    <disclaimer lang="it">Per la segnalazione di bug, richieste o domande generali visita il thread Artwork Downloader sul forum di XBMC.</disclaimer>
+    <disclaimer lang="ko">버그, 요청사항 및 일반적인 질문은  XBMC 포럼의 Artwork Downloader 글타래를 찾아 주세요.</disclaimer>
+    <disclaimer lang="nl">Voor fouten, verzoeken of algemene vragen kan je terecht op Artwork Downloader thread op het XBMC forum.</disclaimer>
+    <disclaimer lang="pl">By zgÅ‚osiÄ‡ bÅ‚Ä…d, proÅ›bÄ™ lub zadaÄ‡ pytanie odwiedÅº wÄ…tek poÅ›wiÄ™cony Artwork Downladerowi na forum XBMC.</disclaimer>
+    <disclaimer lang="pt">Para reportar erros, requisitar algo ou perguntar algo sobre o add-on, visite o tópico do Artwork Downloader no fórum do XBMC.</disclaimer>
+    <disclaimer lang="pt_BR">Para erros, requisições ou questões gerais visite o tópico do Artwork Downloader no Fórum XBMC.org</disclaimer>
+    <disclaimer lang="sk">Pre chyby, požiadavky alebo všeobecné otázky navštívte "Artwork Downloader" vlákno na XBMC fóre.</disclaimer>
+    <disclaimer lang="sv">För buggar, önskemål och frågor, besök Artwork Downloader tråden på XBMCs forum.</disclaimer>
+    <disclaimer lang="zh">错误报告、功能需求及常见问题，请访问XBMC论坛的Artwork Downloader专贴。</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <website></website>
+    <source>https://github.com/XBMC-Addons/script.artwork.downloader</source>
+    <forum>http://forum.xbmc.org/showthread.php?tid=114633</forum>
+    <email></email>
+  </extension>
+</addon>
+
+<addon id="script.common.plugin.cache" name="Common plugin cache" provider-name="anxdpanic, TheCollective" version="2.6.3">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+    </requires>
+    <extension point="xbmc.service" library="resources/lib/entry_point.py" start="startup"/>
+    <extension point="xbmc.python.module" library="resources/lib/storage_server/"/>
+    <extension point="xbmc.addon.metadata">
+        <news>
+[fix] use xbmcvfs.translatePath when available, xbmc.translatePath deprecated(Matrix) and removed(Nexus) |contrib: Gujal00|
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <platform>all</platform>
+        <license>GPL-3.0-only</license>
+        <source>https://github.com/anxdpanic/script.common.plugin.cache</source>
+        <summary lang="en_GB">A common caching API for Kodi add-ons.</summary>
+        <description lang="en_GB">A common caching API for Kodi add-ons.</description>
+    </extension>
+</addon>
+
+<addon id="script.extendedinfo" name="ExtendedInfo Script" version="4.6.1" provider-name="phil65 (Philipp Temminghoff)">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.module.youtube.dl" version="14.519.1"/>
+		<import addon="resource.images.studios.white" version="0.0.5"/>
+		<import addon="script.module.autocompletion" version="1.0.0"/>
+		<import addon="script.module.actionhandler" version="1.0.1"/>
+		<import addon="script.module.t9.search" version="1.0.0"/>
+		<!-- 		<import addon="script.module.buggalo" version="1.1.6"/>-->
+		<import addon="script.module.pil" version="1.1.7"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.python.library" library="default.py" />
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<language/>
+		<summary lang="en">ExtendedInfo Script</summary>
+		<description lang="en">This script offers various possibilities to display online content inside skins as well as a complete MovieDB browser including info dialogs for various media types. Used services are themoviedb.org, theaudiodb.org, rottentomatoes.com, Trakt.TV, omdbapi.com and a lot more. Needs skin implementation for lot of functions.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=160558</forum>
+		<source>https://github.com/phil65/script.extendedinfo</source>
+		<email>phil65@kodi.tv</email>
+	</extension>
+</addon>
+
+<addon id="script.grab.fanart"
+    name="Grab Fanart" version="0.14.1" provider-name="robweber">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+  </requires>
+  <extension point="xbmc.python.library" library="default.py" />
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Exposes fanart as skin properties for slideshows, etc</summary>
+    <description lang="en">Uses the Kodi database to grab all fanart from media items and put it into a skin property for use by skins/slideshows as previous version of XBMC allowed.</description>
+    <forum>http://forum.kodi.tv/showthread.php?tid=166572</forum>
+    <source>https://github.com/robweber/script.grab.fanart</source>
+	<website>https://github.com/robweber/script.grab.fanart</website>
+    <license>The MIT License</license>
+    <platform>all</platform>
+    <language></language>
+  </extension>
+</addon>
+
+<addon id="script.image.resource.select" name="Image Resource Select Addon" version="1.1.2" provider-name="ronie">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="script.module.simplejson" version="3.3.0" />
+	</requires>
+	<extension point="xbmc.python.library" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Image resource selection addon</summary>
+		<description lang="en">Script for skinners to let users select an image resource addon.</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=239558</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/ronie/script.image.resource.select</source>
+	</extension>
+</addon>
+
+<addon id="script.module.actionhandler" name="ActionHandler" version="1.0.4" provider-name="Philipp Temminghoff (phil65)">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Helper module for Event handling in WindowXMLs</summary>
+		<description lang="en">Helper module to allow mapping Actions, Onfocus and click events via decorators</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2.1, February 1999</license>
+		<source>https://github.com/phil65/script.module.actionhandler</source>
+	</extension>
+</addon>
+
+<addon id="script.module.addon.signals"
+    name="Addon Signals"
+    version="0.0.6"
+    provider-name="Rick Phillips (ruuk)">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Inter-addon signalling</summary>
+        <description lang="en_GB">Provides signal/slot mechanism for inter-addon communication</description>
+        <platform>all</platform>
+        <license>LGPL-2.1-only</license>
+        <source>https://github.com/ruuk/script.module.addon.signals</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.arrow"
+       name="arrow"
+       version="0.12.2"
+       provider-name="crsmithdev, Razzeee">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.dateutil" version="2.6.0"/>
+    <import addon="script.module.backports.functools_lru_cache" version="1.2.1"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Arrow: better dates and times for Python</summary>
+    <description lang="en">Packed for Kodi from https://github.com/crsmithdev/arrow</description>
+    <platform>all</platform>
+    <license>Apache2</license>
+    <source>https://github.com/Razzeee/script.module.arrow</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.autocompletion" name="AutoCompletion library" version="1.1.2" provider-name="Philipp Temminghoff (phil65)">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0" />
+        <import addon="script.module.simplejson" version="3.3.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Module providing some AutoCompletion functions</summary>
+        <description lang="en">Module providing some AutoCompletion functions</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 2.1, February 1999</license>
+        <source>https://github.com/phil65/script.module.autocompletion</source>
+    </extension>
+</addon>
+
+<addon id="script.module.backports.functools_lru_cache"
+       name="backports.functools_lru_cache"
+       version="1.6.1"
+       provider-name="Jason R. Coombs">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Backport of functools.lru_cache from Python 3.3</summary>
+    <description lang="en">Packed for Kodi from https://github.com/jaraco/backports.functools_lru_cache</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <website>https://github.com/jaraco/backports.functools_lru_cache</website>
+    <source>https://github.com/Razzeee/script.module.backports.functools_lru_cache</source>
+  </extension>
+</addon>
+
+<addon id="script.module.beautifulsoup"
+       name="BeautifulSoup"
+       version="3.2.1"
+       provider-name="Leonard Richardson (leonardr@segfault.org)">
+  <requires>
+    <import addon="xbmc.python"
+    		version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>HTML/XML parser for quick-turnaround applications like screen-scraping</summary>
+    <description>Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.</description>
+    <license>BSD</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.dateutil"
+       name="python-dateutil"
+       version="2.6.1"
+       provider-name="Paul Ganssle">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.six" version="1.5.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Extensions to the standard Python datetime module</summary>
+    <description lang="en">The dateutil module provides powerful extensions to the datetime module available in the Python standard library.</description>
+    <license>BSD-2-Clause</license>
+    <website>https://dateutil.readthedocs.io/en/stable/</website>
+    <source>https://github.com/dateutil/dateutil/</source>
+  </extension>
+</addon>
+
+<addon id="script.module.metadatautils"
+       name="Metadata and Artwork module"
+       version="1.0.0"
+       provider-name="marcelveldt">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8" />
+        <import addon="script.module.thetvdb" version="0.0.1" />
+        <import addon="script.module.musicbrainz" version="0.0.1" />
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.arrow" version="0.6.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Metadata and artwork from common sources like TMDB, IMDB, TADB and fanart.tv </summary>
+        <description>
+            The metadata and artwork module for Kodi provides rich metadata, including artwork for
+            various metatypes by scraping (and caching) this information from sites like TMDB, musicbrainz and fanart.tv.
+        </description>
+        <license>Apache 2.0</license>
+        <source>https://github.com/marcelveldt/script.module.metadatautils</source>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.module.musicbrainz"
+       name="Musicbrainz NGS webservice python bindings"
+       version="0.6.0"
+       provider-name="marcelveldt">
+  <requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python bindings for Musicbrainz' NGS webservice</summary>
+    <description>Kodi module library for the Python bindings for Musicbrainz' NGS webservice developed by alastair.</description>
+    <license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+    <source>https://github.com/marcelveldt/script.module.musicbrainz</source>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.requests"
+       name="requests"
+       version="2.15.1"
+       provider-name="kennethreitz, beenje, Freso">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Python HTTP for Humans</summary>
+    <description lang="en">Packed for KODI from https://github.com/kennethreitz/requests</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Apache2</license>
+    <forum></forum>
+    <website>http://python-requests.org</website>
+    <source>https://github.com/Freso/script.module.requests</source>
+    <email>freso.dk AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.11" provider-name="marcelveldt">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Provides a simple file- and memory based cache for Kodi addons</summary>
+        <description>Provides a simple file- and memory based cache for Kodi addons</description>
+        <license>Apache 2.0</license>
+        <source>https://github.com/marcelveldt/script.module.simplecache</source>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.module.simplejson"
+       name="simplejson"
+       version="3.16.1"
+       provider-name="Bob Ippolito">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Simple, fast, extensible JSON encoder/decoder for Python</summary>
+    <description lang="en">Simple, fast, extensible JSON encoder/decoder for Python</description>
+    <disclaimer lang="en">Code taken from https://pypi.org/project/simplejson/</disclaimer>
+    <license>MIT License, Academic Free License v. 2.1</license>
+    <website>https://pypi.org/project/simplejson/</website>
+    <source>https://github.com/simplejson/simplejson</source>
+  </extension>
+</addon>
+
+<addon id="script.module.six"
+       name="six"
+       version="1.13.0"
+       provider-name="gutworth">
+  <requires>
+    <import addon="xbmc.python"
+    		version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Python 2 and 3 compatibility utilities.</summary>
+    <description lang="en">Six is a Python 2 and 3 compatibility library. It provides utility functions for smoothing over the differences between the Python versions with the goal of writing Python code that is compatible on both Python versions. See the documentation for more information on what is provided.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <source>https://pypi.org/project/six/</source>
+    <website>https://pypi.org/project/six/</website>
+  </extension>
+</addon>
+
+<addon id="script.module.t9.search" name="T9 search dialog" version="1.0.1" provider-name="phil65">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0" />
+    <import addon="script.module.actionhandler" version="1.0.1"/>
+    <import addon="script.module.autocompletion" version="1.0.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">T9 search dialog including AutoCompletion (to be used by add-ons)</summary>
+    <description lang="en">T9 search dialog including AutoCompletion (to be used by add-ons)</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+	<platform>all</platform>
+	<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+	<forum>-</forum>
+	<source>https://github.com/phil65/script.module.t9.search</source>
+	<email>phil65@kodi.tv</email>
+  </extension>
+</addon>
+
+<addon id="script.module.thetvdb"
+       name="The TVDB API v2"
+       version="1.0.12"
+       provider-name="marcelveldt">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.arrow" version="0.6.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>TheTVDB API v2 python module for Kodi</summary>
+        <description>TheTVDB API v2 python module for Kodi</description>
+        <license>Apache 2.0</license>
+        <source>https://github.com/marcelveldt/script.module.thetvdb</source>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.module.unidecode" name="unidecode" version="1.1.1" provider-name="Tomaz Solc (Tomaz.solc@tablix.org)">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">ASCII transliterations of Unicode text by Sean M. Burke and Tomaz Solc</summary>
+		<description lang="en">ASCII transliterations of Unicode text by Sean M. Burke and Tomaz Solc</description>
+		<disclaimer lang="en">Code taken from https://pypi.org/project/Unidecode</disclaimer>
+		<license>GPL-2.0-or-later</license>
+		<website>https://pypi.org/project/Unidecode</website>
+		<source>https://pypi.org/project/Unidecode</source>
+	</extension>
+</addon>
+
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="19.912.1" provider-name="Rick Phillips (ruuk)">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0" />
+        <import addon="script.module.addon.signals" version="0.0.1"/>
+    </requires>
+    <extension point="xbmc.python.script" library="control.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Module providing access to youtube-dl video stream extraction</summary>
+        <description lang="en">Module providing access to youtube-dl video stream extraction for hundreds of sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version. Also provides downloading with the option for background downloading with a queue and queue manager.</description>
+        <summary lang="el">Βοηθητική μονάδα πρόσβασης στους επιλυτές youtube-dl για την εξαγωγή ροών βίντεο</summary>
+        <description lang="el">Βοηθητική μονάδα πρόσβασης στους επιλυτές youtube-dl για την εξαγωγή ροών βίντεο από εκατοντάδες ιστότοπους. Η έκδοση βασίζεται στην έκδοση ημερομηνίας του youtube-dl: EE.MHH.EK όπου ΕΚ η υπό-έκδοση συγκεκριμένα για το πρόσθετο. Επιπλέον δίνει δυνατότητα μεταφόρτωσης στο παρασκήνιο με ουρά και διαχειριστή αυτής.</description>
+        <summary lang="es">Módulo que proporciona acceso a YouTube-dl para la extracción de flujos de video</summary>
+        <description lang="es">Módulo que proporciona acceso a YouTube-dl para la extracción de flujos de video de cientos de sitios. La versión está basada en la versión de fecha youtube-dl: YY.MDD.V donde V es la subversión específica del complemento. También permite descargas con la opción de descarga en segundo plano con una cola y un administrador de colas.</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=200877</forum>
+        <source>https://github.com/ruuk/script.module.youtube.dl</source>
+    </extension>
+</addon>
+
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.3" provider-name="marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="2.13.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.metadatautils" version="1.0.0"/>
+	</requires>
+
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="resources\lib\context_animatedart.py">
+              <label>32024</label>
+              <visible>!IsEmpty(Window(Home).Property(SkinHelper.EnableAnimatedPosters)) + Container.Content(movies)</visible>
+            </item>
+            <item library="resources\lib\context_pvr.py">
+                <label>32023</label>
+                <description>PVR artwork Configuration</description>
+                <visible>
+                    !IsEmpty(Window(Home).Property(SkinHelper.EnablePvrThumbs)) +
+                    [Window.IsActive(MyPVRChannels.xml) |
+                    Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) |
+                    Window.IsActive(MyPVRTimers.xml) | Window.IsActive(MyPVRSearch.xml)]
+                </visible>
+            </item>
+            <item library="resources\lib\context_music.py">
+                <label>32023</label>
+                <description>Music artwork Configuration</description>
+                <visible>
+                    !IsEmpty(Window(Home).Property(SkinHelper.EnableMusicArt)) +
+                    [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]
+                </visible>
+            </item>
+        </menu>
+	</extension>
+
+    <extension point="xbmc.python.library" library="default.py" />
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+    </extension>
+	<extension library="service.py" point="xbmc.service" start="login" />
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Helper service for Kodi skins</summary>
+        <description>Helper service for Kodi skins</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<website></website>
+		<source>https://github.com/marcelveldt/script.skin.helper.service</source>
+	</extension>
+</addon>
+
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.17" provider-name="BigNoid,marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="2.20.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="script.module.unidecode" version="0.4.14"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<news>Template improvements and bug fixes</news>
+		<description lang="bg">Добавка за облици, която осигурява просто управление и списък с потребителски преки пътища (изисква поддръжка от облика)</description>
+		<description lang="de">Add-on für Skins für einfache Bearbeitung und Auflistung von benutzerdefinierten Verknüpfungen (erfordert Skin-Unterstützung)</description>
+		<description lang="el">Πρόσθετο για κελύφη, το οποίο παρέχει έναν απλό τρόπο διαχείρισης και κατηγοριοποίησης των συντομεύσεων του χρήστη (πρέπει να υποστηρίζεται από το κέλυφος)</description>
+		<description lang="en">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
+		<description lang="en_NZ">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
+		<description lang="en_US">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
+		<description lang="es">Complemento para las pieles para proporcionar una gestión sencilla y lista de atajos de usuario (requiere que la piel lo soporte)</description>
+		<description lang="fr_CA">Addiciel pour habillages qui fournit une gestion simple et un listage des raccourcis utilisateurs (exige la prise en charge de l'habillage)</description>
+		<description lang="gl">Complemento que fornece aos temas dunha xestión sinxela dos atallos dos usuarios (require soporte do tema)</description>
+		<description lang="hr">Dodatak za presvlake koja omogućava jednostavno upravljanje i prikaz korisnikovih prečaca (zahtijeva podršku presvlake) </description>
+		<description lang="hu">Felszín kiegészítő amely könnyen kezelhetővé és listázhatóvá teszi a felhasználói parancsikonokat (Felszín támogatás szükséges)</description>
+		<description lang="is">Viðbót fyrir viðmót til að halda utan um flýtivísa og fá yfirlit yfir þá (þarfnast stuðnings frá viðmóti)</description>
+		<description lang="it">Add-on per gli skin per consentire un facile gestione ed elenco delle scorciatoie utente (richiede che lo skin lo supporti)</description>
+		<description lang="lt">Priedas teminėms išvaizdoms, kad jos turėtų galimybę paprastai tvarkyti ir atvaizduoti vartotojo  sukurtas nuorodas (reikalingas teminės išvaizdos palaikymas)</description>
+		<description lang="nl">Add-on voor skins om te voorzien in het eenvoudig beheren en sorteren van gebruikers snelkoppelingen (vereist skin ondersteuning)</description>
+		<description lang="no">Tillegg for enkel administrering og opplisting av bruker-snarveier i tema (krever støtte i tema)</description>
+		<description lang="pl">Wtyczka dla skór, która zapewnia proste zarządzanie i tworzenie list skrótów użytkownika (wymaga wsparcia skóry)</description>
+		<description lang="pt">Um add-on que permite que os temas tenham recursos simples para gerir e listar atalhos de utilizadores (é necessário suporte do tema)</description>
+		<description lang="pt_BR">Add-on para que as skins possam prover gerenciamento de lista de atalhos para o menu principal (requer suporte da skin)</description>
+		<description lang="ru">Дополнение для обложек, предоставляющее простой способ управления и список пользовательских ярлыков (требуется поддержка обложкой)</description>
+		<description lang="sv">Skinntillägg som tillhandahåller enkel hantering och översikt av användargenvägar (om skinnet stöder det)</description>
+		<description lang="zh">插件为皮肤提供了简单的管理和用户连接方式列表 (需要皮肤支持)</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU General Public License, v2</license>
+		<forum>http://forum.xbmc.org/showthread.php?tid=178294</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/BigNoid/script.skinshortcuts</source>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+	</extension>
+</addon>
+
+<addon id="service.library.data.provider" name="Library Data Provider" provider-name="BigNoid, Martijn" version="0.1.5">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+		<import addon="xbmc.json" version="6.0.0"/>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py" />
+	<extension library="service.py" point="xbmc.service" start="login" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Plugin for skins to provide library data throughout the skin.</summary>
+		<description lang="en">Plugin for skins to provide library data throughout the skin.</description>
+		<disclaimer lang="en">This plugin is not a standalone plugin, your skin must support it.</disclaimer>
+		<platform>all</platform>
+		<language />
+		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210063</forum>
+		<website>https://github.com/BigNoid/service.library.data.provider</website>
+		<email>big.noid@kodi.tv</email>
+		<source>https://github.com/BigNoid/service.library.data.provider</source>
+	</extension>
+</addon>
+
+<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.33" provider-name="Martijn, phil65">
+    <requires>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.service" library="default.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="be">Skin widgets</summary>
+        <summary lang="da">Widgets til Skins</summary>
+        <summary lang="de">Skin Widgets</summary>
+        <summary lang="el">Widgets κελύφους</summary>
+        <summary lang="en">Skin widgets</summary>
+        <summary lang="es">Skin widgets</summary>
+        <summary lang="fr">Skin widgets</summary>
+        <summary lang="gl">Widgets do Tema</summary>
+        <summary lang="hr">Dodaci za presvlaku</summary>
+        <summary lang="hu">Kinézet miniprogram</summary>
+        <summary lang="it">Skin widgets</summary>
+        <summary lang="ko">스킨 위젯</summary>
+        <summary lang="nl">Skin widgets</summary>
+        <summary lang="pl">Dodatki Skóry</summary>
+        <summary lang="pt">Widgets para Temas</summary>
+        <summary lang="pt_BR">Skin widgets</summary>
+        <summary lang="sk">Widgety Vzhľadov</summary>
+        <summary lang="sv">Skal widgetar</summary>
+        <summary lang="zh">皮肤微件</summary>
+        <description lang="be">Skin widgets</description>
+        <description lang="da">Widgets til Skins</description>
+        <description lang="de">Skin Widgets</description>
+        <description lang="el">Widgets κελύφους</description>
+        <description lang="en">Skin widgets</description>
+        <description lang="es">Skin widgets</description>
+        <description lang="fr">Skin widgets</description>
+        <description lang="gl">Widgets do Tema</description>
+        <description lang="hr">Dodaci za presvlaku</description>
+        <description lang="hu">Kinézet miniprogram</description>
+        <description lang="it">Skin widgets</description>
+        <description lang="ko">스킨 위젯</description>
+        <description lang="nl">Skin widgets</description>
+        <description lang="pl">Dodatki Skóry</description>
+        <description lang="pt">Widgets para Temas</description>
+        <description lang="pt_BR">Skin widgets</description>
+        <description lang="sk">Widgety Vzhľadov</description>
+        <description lang="sv">Skal widgetar</description>
+        <description lang="zh">皮肤微件</description>
+        <disclaimer lang="be">For information visit the wiki page or XBMC forum.</disclaimer>
+        <disclaimer lang="de">Besuche für mehr Informationen die Wiki-Seite oder das XBMC-Forum</disclaimer>
+        <disclaimer lang="el">Για πληροφορίες επισκεφθείτε τη σελίδα wiki ή το forum του XBMC.</disclaimer>
+        <disclaimer lang="en">For information visit the wiki page or XBMC forum.</disclaimer>
+        <disclaimer lang="es">Para más información, visite el wiki o los foros de XBMC.</disclaimer>
+        <disclaimer lang="fr">Pour plus d'information, visitez la page du Wiki ou dur forum XBMC.</disclaimer>
+        <disclaimer lang="gl">Para máis información visite a páxina wiki ou o foro do XBMC.</disclaimer>
+        <disclaimer lang="hr">Za više informacija posjetite wiki stranicu ili XBMC forum.</disclaimer>
+        <disclaimer lang="it">Per le informazioni visita la pagina wiki o il forum</disclaimer>
+        <disclaimer lang="ko">위키 페이지나 XBMC 포럼에서 추가 정보를 확인하세요.</disclaimer>
+        <disclaimer lang="nl">Bezoek voor informatie de wiki pagina of het XBMC forum.</disclaimer>
+        <disclaimer lang="pl">Odwiedź stronę wiki lub forum XBMC by znaleźć więcej informacji.</disclaimer>
+        <disclaimer lang="pt">Para mais informação, visite a página wiki ou o fórum do XBMC.</disclaimer>
+        <disclaimer lang="pt_BR">Para informações visite o página do wiki ou fórum XBMC.org.</disclaimer>
+        <disclaimer lang="sv">För information, besök wiki-sidan eller XBMC forumet.</disclaimer>
+        <disclaimer lang="zh">访问wiki页或XBMC论坛了解更多信息</disclaimer>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website></website>
+        <forum>http://forum.xbmc.org/showthread.php?tid=142389</forum>
+        <source>https://github.com/XBMC-Addons/service.skin.widgets</source>
+        <email></email>
+    </extension>
+</addon>
+
+<addon id="service.xbmc.versioncheck" name="Version Check" version="0.5.14" provider-name="Team Kodi">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.service" library="resources/lib/runner.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <news>
+- add Kodi 19.0 release
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <summary lang="be">Kodi Version Check checks if you are running latest released version.</summary>
+        <summary lang="bg">Проверява дали ползвате най-новата версия на Kodi.</summary>
+        <summary lang="ca">Kodi Version Check comprova si està utilitzant la última versió publicada.</summary>
+        <summary lang="cs">Kontrola verze Kodi, zkontroluje, zda používáte nejnovější vydanou verzi.</summary>
+        <summary lang="da">Kodi undersøger om du benytter den nyeste version.</summary>
+        <summary lang="de">Kodi Versionsprüfung prüft, ob die neuste Version von Kodi installiert ist.</summary>
+        <summary lang="el">Ο Έλεγχος Έκδοσης Kodi εξετάζει αν έχετε την πιο πρόσφατη έκδοση του προγράμματος.</summary>
+        <summary lang="en">Kodi Version Check checks if you are running latest released version.</summary>
+        <summary lang="en_NZ">Kodi Version Check checks if you are running latest released version.</summary>
+        <summary lang="en_US">Kodi Version Check checks if you are running latest released version.</summary>
+        <summary lang="es">Kodi Version Check comprueba si está ejecutando la última versión de Kodi.</summary>
+        <summary lang="es_MX">Comprobador de Version de Kodi comprueba si se esta ejecutando ultima version publicada.</summary>
+        <summary lang="fi">Kodi Version Check tarkistaa onko käyttämäsi uusin versio.</summary>
+        <summary lang="fr">Le contrôle de version de Kodi vérifie si la dernière version sortie est utilisée.</summary>
+        <summary lang="fr_CA">Le contrôleur de version Kodi vérifie si vous utilisez la dernière version parue.</summary>
+        <summary lang="gl">Kodi Version Check verifica se está a executar a última versión.</summary>
+        <summary lang="he">בודק גרסת Kodi מוודא אם אתה מריץ את הגרסה הרשמית האחרונה.</summary>
+        <summary lang="hr">Kodi provjeritelj inačice provjerava imate li posljednju inačicu izdanja.</summary>
+        <summary lang="hu">Az Kodi verzió ellenőrző megvizsgálja, hogy a legújabb kiadást futtatja-e.</summary>
+        <summary lang="id">Kodi Version Check mengecek apakah Anda menggunakan versi rilis terbaru.</summary>
+        <summary lang="is">Kodi Version Check athugar hvort þú sért að keyra nýjustu viðurkennda útgáfu.</summary>
+        <summary lang="it">Kodi Version Check verifica se hai l'ultima versione rilasciata</summary>
+        <summary lang="ko">Kodi Version Checks는 최신 정식 릴리즈 버전을 사용중인지 검사해줍니다.</summary>
+        <summary lang="lt">Kodi Version Check patikrina ar naudojate naujausią versiją.</summary>
+        <summary lang="nl">Kodi versie-check controleert of je de laatst beschikbare versie hebt.</summary>
+        <summary lang="no">Kodi Versjonsettersyn sjekker om du kjører den sist utgitte versjonen.</summary>
+        <summary lang="pl">Dodatek Version Check sprawdza czy używasz najnowszej wersji Kodi.</summary>
+        <summary lang="pt">O Kodi Version Check verifica se a sua versão de lançamento do Kodi está actualizada.</summary>
+        <summary lang="pt_BR">Kodi Version Check verifica se você está executando a versão mais recente.</summary>
+        <summary lang="ro">Verificare versiune Kodi verifică dacă folosiți ultima versiune lansată.</summary>
+        <summary lang="ru">Kodi Version Check проверяет если вы используете последнюю версию</summary>
+        <summary lang="sk">Kodi Kontrola verzií overuje, či používate najnovšiu vydanú verziu.</summary>
+        <summary lang="sl">Preverjanje različice Kodi preveri, če imate nameščeno nazadnje izdano različico.</summary>
+        <summary lang="sv">Kodi Version Check kontrollerar om du använder den senaste versionen.</summary>
+        <summary lang="tr">Kodi Sürüm Kontrol yayınlanmış son sürümü kullanıp kullanmadığınızı kontrol eder.</summary>
+        <summary lang="zh">Kodi 版本检查检查你使用的是否为最新发布的版本。</summary>
+        <description lang="be">Kodi Version Check only supports a number of platforms/distros as releases may differ between them. For more information visit the kodi.tv website.</description>
+        <description lang="bg">Kodi Version Check поддържа няколко платформи/дистрибуции. За повече информация посетете страницата www.kodi.tv</description>
+        <description lang="ca">Kodi Version Check només és compatible amb una sèrie de plataformes / distribucions ja que les ultimes versions poden ser diferents entre elles. Per obtenir més informació, visiteu el lloc web kodi.tv.</description>
+        <description lang="cs">Kontrola verze Kodi podporuje pouze několik platforem/distribucí a verze mezi nimi se můžou lišit. Pro více informací navštivte webové stránky kodi.tv.</description>
+        <description lang="da">Kodi kan kun undersøge for opdateringer for visse platforme/udgaver, da der kan være forskel. For mere information, besøg kodi.tv.</description>
+        <description lang="de">Kodi Versionsprüfung unterstützt nur ein paar Plattformen/Distributionen, da sich die jeweiligen Veröffentlichungen unterscheiden können. Für weitere Informationen besuchen Sie die kodi.tv-Webseite.</description>
+        <description lang="el">Ο Έλεγχος Έκδοσης Kodi υποστηρίζει μόνο ορισμένα λειτουργικά συστήματα/διανομές, καθώς οι εκδόσεις διαφέρουν για το καθένα. Για περισσότερες πληροφορίες επισκεφθείτε το kodi.tv</description>
+        <description lang="en">Kodi Version Check only supports a number of platforms/distros as releases may differ between them. For more information visit the kodi.tv website.</description>
+        <description lang="en_NZ">Kodi Version Check only supports a number of platforms/distros as releases may differ between them. For more information visit the kodi.tv website.</description>
+        <description lang="en_US">Kodi Version Check only supports a number of platforms/distros as releases may differ between them. For more information visit the kodi.tv website.</description>
+        <description lang="es">Kodi Version Check solo soporta un número limitado de plataformas/distribuciones, ya que los lanzamientos pueden diferir entre ellos. Para más información, visite la web de kodi.tv.</description>
+        <description lang="fi">Kodi Version Check tukee vain joitain alustoja/distroja koska julkaisut saattavat poiketa toisistaan. Saadaksesi lisätietoa, vieraile kodi.tv:ssä.</description>
+        <description lang="fr">Le contrôle de version de Kodi ne prend en charge qu'un certain nombre de plate-formes/distributions car les versions peuvent varier entre elles. Pour plus d'informations, consulter le site Web kodi.tv.</description>
+        <description lang="fr_CA">Le contrôleur de version Kodi ne prend en charge qu'un certain nombre de plate-formes/distributions car les versions peuvent varier entre elles. Pour plus d'informations, visitez le site Web kodi.tv.</description>
+        <description lang="gl">Kodi Version Check só soporta un número limitado de plataformas/distribucións, xa que os lanzamentos poden diferir entre eles. Para máis información visitar o sitio web de kodi.tv.</description>
+        <description lang="he">בודק גרסת Kodi תומך רק במספר פלטפורמות/הפצות מאחר שסימון הגרסאות שונה בין אחת לשניה. למידע נוסף בקר באתר kodi.tv.</description>
+        <description lang="hr">Kodi provjeritelj inačice samo podržava broj platformi/distribucija koliko to dopuštaju pojedina izdanja. Za više informacija posjetite kodi.tv web stranicu.</description>
+        <description lang="hu">Az Kodi verzió-ellenőrző csak néhány platformot / disztribúciót támogat, mert a kiadások között különbségek lehetnek. További információkért keresse fel az kodi.tv oldalt.</description>
+        <description lang="id">Kodi Version Check hanya mendukung beberapa platform/distro karena rilisnya mungkin berbeda-beda. Untuk informasi lebih lanjut kunjungi situs kodi.tv.</description>
+        <description lang="it">Kodi Version Check supporta un numero di piattaforme e distribuzioni diverse tra loro. Per più informazioni visita il sito kodi.tv</description>
+        <description lang="ko">Kodi Versio Check는 일부 플랫폼/배포본만을 지원합니다. 자세한 정보는 kodi.tv 웹사이트에서 확인하세요</description>
+        <description lang="lt">Kodi Version Check palaiko tik kelias platformas/distribucijas, nes leidimai tarp jų gali skirtis. Norėdami gauti daugiau informacijos, apsilankykite Kodi.tv puslapyje.</description>
+        <description lang="nl">Kodi versie check ondersteunt alleen een aantal platforms/distro`s omdat uitgaven verschillen tussen hen. Voor meer informatie bezoek de kodi.tv website.</description>
+        <description lang="no">Kodi Versjonsettersyn støtter kun noen plattformer/distribusjoner fordi utgivelser kan være forskjellige mellom dem. Besøk kodi.tv for mer informasjon.</description>
+        <description lang="pl">Dodatek Version Check wspiera tylko część platform i dystrybucji. Więcej informacji na stronie kodi.tv</description>
+        <description lang="pt">O Kodi Version Check suporta apenas algumas plataformas/distribuições, porque os lançamentos podem não ser sempre idênticos. Para mais informação, visite o site kodi.tv.</description>
+        <description lang="pt_BR">Verificador de versões do Kodi somente suporta algumas plataformas/distros em que os lançamentos podem diferenciar entre si. Para maiores informações visite o website kodi.tv.</description>
+        <description lang="ru">Проверка новых версий Kodi поддерживается только на ряде платформ/дистрибутивов и они могут различаться между собой. Для получения доп. информации посетите сайт kodi.tv</description>
+        <description lang="sl">Preverjanje različice Kodi podpira le nekatere platforme/distribucije, saj se izdaje med njimi lahko zelo razlikujejo. Za več informacij obiščite spletišče kodi.tv</description>
+        <description lang="sv">Kodi Version Check stöder endeast ett antal plattformar/distributioner eftersom utgivningar kan skilja mellan dessa. För mer information besök kodi.tv webplatsen.</description>
+        <description lang="tr">Kodi Sürüm Kontrol sürümler arasında değişiklik olduğu için sadece birkaç platform/dağıtım destekler. Daha fazla bilgi için kodi.tv web sitesini ziyaret edin.</description>
+        <description lang="zh">Kodi 版本检查只支持部分平台/发行版，它们之间的版本可能会有所不同。欲了解更多信息，请访问 kodi.tv 网站。</description>
+        <disclaimer lang="be">Feel free to use this script. For information visit kodi.tv</disclaimer>
+        <disclaimer lang="bg">Ползвайте скрипта свободно. За повече информация посетете www.kodi.tv</disclaimer>
+        <disclaimer lang="ca">Sigues lliure d'utilitzar aquest script. Per més informació visita kodi.tv</disclaimer>
+        <disclaimer lang="cs">Neváhejte použít tento skript. Pro více informací navštivte kodi.tv</disclaimer>
+        <disclaimer lang="da">Du er velkommen til at bruge dette script. For information, besøg kodi.tv</disclaimer>
+        <disclaimer lang="de">Zögern Sie nicht, dieses Skript zu verwenden. Für Informationen besuchen Sie kodi.tv</disclaimer>
+        <disclaimer lang="el">Χρησιμοποιήστε αυτό το script ελεύθερα. Για πληροφορίες επισκεφθείτε το kodi.tv</disclaimer>
+        <disclaimer lang="en">Feel free to use this script. For information visit kodi.tv</disclaimer>
+        <disclaimer lang="en_NZ">Feel free to use this script. For information visit kodi.tv</disclaimer>
+        <disclaimer lang="en_US">Feel free to use this script. For information visit kodi.tv</disclaimer>
+        <disclaimer lang="es">Puede usar libremente este programa. Para más información, visite kodi.tv</disclaimer>
+        <disclaimer lang="es_MX">Sientase libre de utilizar este script. Para mas información visita kodi.tv</disclaimer>
+        <disclaimer lang="fr">Utiliser ce script si désiré. Pour plus d'informations, consulter le site kodi.tv</disclaimer>
+        <disclaimer lang="fr_CA">N'hésitez pas à utiliser ce script. Pour plus d'informations visitez kodi.tv</disclaimer>
+        <disclaimer lang="gl">Síntase libre de usar este script, para máis información visitar kodi.tv.</disclaimer>
+        <disclaimer lang="he">תרגיש חופשי להשתמש בסקריפט זה. למידע נוסף בקר ב-kodi.tv</disclaimer>
+        <disclaimer lang="hr">Slobodno koristite ovu skriptu. Za više informacija posjetite kodi.tv</disclaimer>
+        <disclaimer lang="hu">Használja bátran ezt a szkriptet! Információkért keresse fel az kodi.tv oldalt!</disclaimer>
+        <disclaimer lang="id">Jangan sungkan menggunakan script ini. Untuk informasi hubungi kodi.tv</disclaimer>
+        <disclaimer lang="it">Usa liberamente lo script. Per informazioni visita kodi.tv</disclaimer>
+        <disclaimer lang="ko">이 스크립트를 자유롭게 사용하세요. 관련 정보는 kodi.tv를 방문하세요.</disclaimer>
+        <disclaimer lang="lt">Galite laisvai naudoti šį scenarijų. Apsilankykite kodi.tv, norėdami gauti daugiau informacijos.</disclaimer>
+        <disclaimer lang="nl">Gebruik dit script vrijblijvend. Voor meer informatie bezoek kodi.tv</disclaimer>
+        <disclaimer lang="no">Du har fri tillatelse til å benytte dette skriptet. Besøk kodi.tv for informasjon</disclaimer>
+        <disclaimer lang="pl">Zapraszamy do używania tego dodatku. Więcej informacji na stronie kodi.tv</disclaimer>
+        <disclaimer lang="pt">Esteja à vontade para usar este script. Para mais informação, visite kodi.tv.</disclaimer>
+        <disclaimer lang="pt_BR">Sinta-se livre para usar este script. Para maiores informações visite kodi.tv</disclaimer>
+        <disclaimer lang="ro">Simțiți-vă liberi să folosiți acest script. Pentru informații vizitați kodi.tv</disclaimer>
+        <disclaimer lang="ru">Используйте этот скрипт на свое усмотрение. Для информации посетите kodi.tv</disclaimer>
+        <disclaimer lang="sl">Izvolite uporabiti ta skript. Za dodatne informacije obiščite kodi.tv</disclaimer>
+        <disclaimer lang="sv">Använd gärna detta skript. För information, besök kodi.tv</disclaimer>
+        <disclaimer lang="tr">Bu betiği kullanmaktan çekinmeyin. Daha fazla bilgi için kodi.tv adresini ziyaret edin</disclaimer>
+        <disclaimer lang="zh">可放心使用此脚本，更多信息访问 kodi.tv</disclaimer>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later, GPL-3.0-or-later, Apache-2.0</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=160228</forum>
+        <website>https://kodi.tv</website>
+        <source>https://github.com/XBMC-Addons/service.xbmc.versioncheck</source>
+    </extension>
+</addon>
+
+<addon
+  id="skin.aczghsk.16"
+  version="1.1.6"
+  name="[COLOR lime]A Confluence ZEITGEIST HSK[/COLOR]  (16)"
+  provider-name="axbmcuser">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="0.22">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+	<addon id="skin.aeon.mq7.16" version="1.4.1" name="[COLOR lime]Aeon MQ 7[/COLOR]  (16)" provider-name="MarcosQui">
+	<requires>
+	<import addon="xbmc.gui" version="5.10.0"/>
+	<import addon="service.skin.widgets" version="0.0.30"/>
+	<import addon="service.library.data.provider" version="0.0.9"/>
+	<import addon="service.nextup.notification" version="1.0.8"/>
+	<import addon="script.favourites" version="6.0.2"/>
+	<import addon="script.artwork.downloader" version="12.0.29"/>
+	<import addon="script.randomandlastitems" version="2.2.2"/>
+	<import addon="script.games.rom.collection.browser" version="2.1.2"/>
+	<import addon="script.artistslideshow" version="1.8.6"/>
+	<import addon="script.tv.show.next.aired" version="6.0.14"/>
+	<import addon="script.cu.lrclyrics" version="3.2.0"/>
+	<import addon="script.globalsearch" version="5.0.0"/>
+	<import addon="script.extendedinfo" version="3.1.1" />
+	<import addon="script.skin.helper.service" version="1.0.23" />
+	<import addon="script.image.resource.select" version="0.0.7"/>
+	<import addon="resource.uisounds.aeonmq6" version="1.0.0"/>
+	<import addon="resource.images.moviegenreicons.xzener-flat" version="0.0.1"/>
+	<import addon="resource.images.musicgenreicons.text" version="0.0.5"/>
+	<import addon="resource.images.weathericons.animated" version="0.0.4"/>
+	</requires>
+	<extension point="xbmc.gui.skin" effectslowdown="0.75" debugging="false">
+	<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+	<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.5"
+  version="5.8.6"
+  name="Aeon Nox"
+  provider-name="BigNoid">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+		<import addon="script.image.resource.select" version="0.0.5"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="21x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">Aeon Nox 5: Redux</summary>
+		<summary lang="el">Aeon Nox 5: Redux</summary>
+		<summary lang="en">Aeon Nox 5: Redux</summary>
+		<summary lang="en_AU">Aeon Nox 5: Redux</summary>
+		<summary lang="en_NZ">Aeon Nox 5: Redux</summary>
+		<summary lang="en_US">Aeon Nox 5: Redux</summary>
+		<summary lang="es">Aeon Nox 5: Redux</summary>
+		<summary lang="fi">Aeon Nox 5: Redux</summary>
+		<summary lang="fr">Aeon Nox 5 : Redux</summary>
+		<summary lang="fr_CA">Aeon Nox 5 : Redux</summary>
+		<summary lang="gl">Aeon Nox 5: Redux</summary>
+		<summary lang="he">Aeon Nox 5: Redux</summary>
+		<summary lang="hu">Aeon Nox 5: Redux</summary>
+		<summary lang="is">Aeon Nox 5: Redux</summary>
+		<summary lang="it">Aeon Nox 5: Redux</summary>
+		<summary lang="ko">Aeon Nox 5: Redux</summary>
+		<summary lang="lt">Aeon Nox 5: Redux</summary>
+		<summary lang="ms">Aeon Nox 5: Redux</summary>
+		<summary lang="nl">Aeon Nox 5: Redux</summary>
+		<summary lang="no">Aeon Nox 5: Redux</summary>
+		<summary lang="pl">Aeon Nox 5: Redux</summary>
+		<summary lang="pt">Aeon Nox 5: Redux</summary>
+		<summary lang="pt_BR">Aeon Nox 5: Redux</summary>
+		<summary lang="ro">Aeon Nox 5: Reproiectat</summary>
+		<summary lang="ru">Aeon Nox 5: Redux</summary>
+		<summary lang="sk">Aeon Nox 5: Redux</summary>
+		<summary lang="sv">Aeon Nox 5: Redux</summary>
+		<summary lang="th">Aeon Nox 5: Redux</summary>
+		<summary lang="vi">Aeon Nox 5: Redux - Sự trở về</summary>
+		<summary lang="zh">Aeon Nox 5: Redux</summary>
+		<description lang="de">Redux: Komplett neu designed für ein modernes Aussehen und das klassische Aeon-Feeling beizubehalten.</description>
+		<description lang="el">Redux: Πλήρως επανασχεδιασμένο για να προσφέρει μια μοντέρνα αισθητική, διατηρώντας ταυτόχρονα την κλασική ομορφιά του Aeon.</description>
+		<description lang="en">Redux: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_AU">Redux: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_NZ">Redux: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_US">Redux: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="es">Redux: Completamente rediseñado para crear un aspecto moderno, pero conservando el toque clásico Aeon.</description>
+		<description lang="fi">Redux: Täysin uudelleensuunniteltu moderni ulkoasu, kuitenkin tuntuen klassiselta Aeon:lta.</description>
+		<description lang="fr">Redux : complètement revu pour créer une apparence moderne, en gardant l'impression classique d'Aeon.</description>
+		<description lang="fr_CA">Redux : complètement remanié pour créer une apparence moderne, tout en conservant l'esprit classique d'Aeon.</description>
+		<description lang="he">Redux: עיצוב חדש היוצר מראה מודרני אך משמר את ההרגשה של Aeon הקלאסי.</description>
+		<description lang="hr">Redux: Potpuno preoblikovan moderan izgled, uz zadržani klasični Aeon osjećaj.</description>
+		<description lang="hu">Redux: Teljesen áttervezett modern kinézet, de megtartva a klasszikus Aeon érzetet.</description>
+		<description lang="is">Redux: Endurhannað nútímalegt útlit í anda Aeon.</description>
+		<description lang="it">Redux: Completamente ridisegnato per creare un look moderno, mantenendo la consueta qualità Aeon.</description>
+		<description lang="ko">Redux: 고전적인 Aeon 느낌을 유지하면서 현대적인 모습으로 완전히 다시 디자인하여 만들었습니다.</description>
+		<description lang="lt">Redux: pilnai atnaujinta, kad sukurtų modernią išvaizdą, išlaikant klasikinio Aeon pojūtį.</description>
+		<description lang="ms">Redux: Direka semula sepenuhnya untuk hasilkan penampilan modern, tetapi masih mengekalkan penampilan Aeon klasik.</description>
+		<description lang="nl">Redux: Volledig opnieuw ontworpen om een ​​moderne look te creëren, met behoud van het klassieke Aeon gevoel.</description>
+		<description lang="no">Redux: Helt redesignet for å gi deg en moderne utforming, samtidig som man beholder den klassiske Aeon følelsen.</description>
+		<description lang="pl">Redux: Całkowicie przeprojektowana skóra Aeon, o nowoczesnym wyglądzie, zachowując klasyczny układ skóry Aeon.</description>
+		<description lang="pt">Redux: Completamente redesenhado para criar um visual moderno enquanto retém o toque clássico Aeon.</description>
+		<description lang="pt_BR">Redux: Design completamente novo para criar um look moderno, mantendo o feeling do Aeon Clássico.</description>
+		<description lang="ru">Redux: полностью переделенная, модернизированная классическая обложка Aeon.</description>
+		<description lang="sk">Redux: Kompletne prepracovaný dizajn s moderným vzhľadom pri zachovaní klasického štýlu Aeon.</description>
+		<description lang="sv">Redux: Totalt omarbetad för att skapa ett modernt utseende, samtidigt som man behåller den klassiska Aeon-känslan.</description>
+		<description lang="th">Redux: การออกแบบใหม่หมดจด เพื่อสร้างรูปลักษณ์ทันสมัย, ​​ขณะที่ยังคงความรู้สึกคลาสสิคของ Aeon.</description>
+		<description lang="vi">Redux: Thiết kế lại hoàn toàn để tạo nên một phong cách hiện đại, trong khi đó vẫn duy trì một cảm giác Aeon cổ điển.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.5.green.16"
+  version="5.8.7"
+  name="[COLOR lime]Aeon Nox Green[/COLOR]  (16)"
+  provider-name="BigNoid">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+		<import addon="script.image.resource.select" version="0.0.5"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="21x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.5.kodi.16"
+  version="5.8.7"
+  name="[COLOR lime]Aeon Nox Kodi[/COLOR]  (16)"
+  provider-name="BigNoid">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+		<import addon="script.image.resource.select" version="0.0.5"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="21x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.chappie.16"
+  version="5.8.7-3.0.7"
+  name="[COLOR lime]Aeon Nox Chappie[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+    	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.green.16"
+  version="5.8.7"
+  name="[COLOR lime]Aeon Nox Green[/COLOR] (16)"
+  provider-name="BigNoid">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+		<import addon="script.image.resource.select" version="0.0.5"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="21x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.kaiserslautern.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Kaiserslautern[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.lara.croft.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Lara Croft[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.lego.16"
+  version="1.0"
+  name="[COLOR lime]LEGO[/COLOR]  (16)"
+  provider-name="Created by BigNoid | Modded by SiLVO and BEATBOX8501">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.2.4"/>
+		<import addon="service.library.data.provider" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.minions.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Die Minions[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.nightmare.16"
+  version="5.8.7-3.0.7"
+  name="[COLOR lime]Freddy vs Jason[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.onkelz.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Böhse ONKELZ[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.schalke.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Schalke 04[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvio.avengers.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]The Avengers[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvio.bm.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Fc Bayern München[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvio.koeln.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]1. Fc Köln[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvio.starwars.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]StarWars[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvo.16"
+  version="5.8.7-3.0.7"
+  name="[COLOR lime]Aeon Nox 5: SiLVO[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="el_GR">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="en_AU">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="en_GB">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="en_NZ">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="en_US">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="es_ES">Creada por BigNoid, Modificada por SiLVO, y Widgets por Mr. V</summary>
+		<summary lang="fi_FI">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="fr_CA">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="fr_FR">Crée par BigNoid, Moddé par SiLVO, avec les Widgets de Mr. V</summary>
+		<summary lang="gl_ES">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="he_IL">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="hu_HU">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="is_IS">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="it_IT">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="ko_KR">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="lt_LT">Sukūrė BigNoid, modifikavo SiLVO bei valdiklius pridėjo Mr. V</summary>
+		<summary lang="ms_MY">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="nb_NO">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="nl_NL">Ontwikkeld door BigNoid, aangepast door SiLVO, en Widgets door Mr. V</summary>
+		<summary lang="pl_PL">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="pt_BR">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="pt_PT">Criado por BigNoid, Modded por SiLVO, e Widgets por Mr. V</summary>
+		<summary lang="ro_RO">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="ru_RU">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="sk_SK">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="sv_SE">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="th_TH">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="vi_VN">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V - Sự trở về</summary>
+		<summary lang="zh_CN">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<description lang="de_DE">Komplett neu designed für ein modernes Aussehen und das klassische Aeon-Feeling beizubehalten.</description>
+		<description lang="el_GR">Πλήρως επανασχεδιασμένο για να προσφέρει μια μοντέρνα αισθητική, διατηρώντας ταυτόχρονα την κλασική ομορφιά του Aeon.</description>
+		<description lang="en_AU">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_GB">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_NZ">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_US">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="es_ES">Completamente rediseñado para crear un aspecto moderno, pero conservando el toque clásico Aeon.</description>
+		<description lang="fi_FI">Täysin uudelleensuunniteltu moderni ulkoasu, kuitenkin tuntuen klassiselta Aeon:lta.</description>
+		<description lang="fr_CA">complètement remanié pour créer une apparence moderne, tout en conservant l'esprit classique d'Aeon.</description>
+		<description lang="fr_FR">Totalement revu pour créer un look moderne, en gardant l'expérience Aeon.</description>
+		<description lang="he_IL">עיצוב חדש היוצר מראה מודרני אך משמר את ההרגשה של Aeon הקלאסי.</description>
+		<description lang="hr_HR">Potpuno preoblikovan moderan izgled, uz zadržani klasični Aeon osjećaj.</description>
+		<description lang="hu_HU">Teljesen áttervezett modern kinézet, de megtartva a klasszikus Aeon érzetet.</description>
+		<description lang="is_IS">Endurhannað nútímalegt útlit í anda Aeon.</description>
+		<description lang="it_IT">Completamente ridisegnato per creare un look moderno, mantenendo la consueta qualità Aeon.</description>
+		<description lang="ko_KR">고전적인 Aeon 느낌을 유지하면서 현대적인 모습으로 완전히 다시 디자인하여 만들었습니다.</description>
+		<description lang="lt_LT">Pilnai atnaujinta, kad sukurtų modernią išvaizdą, išlaikant klasikinio Aeon pojūtį.</description>
+		<description lang="ms_MY">Direka semula sepenuhnya untuk hasilkan penampilan modern, tetapi masih mengekalkan penampilan Aeon klasik.</description>
+		<description lang="nb_NO">Helt redesignet for å gi deg en moderne utforming, samtidig som man beholder den klassiske Aeon følelsen.</description>
+		<description lang="nl_NL">Volledig opnieuw ontworpen om een ​​moderne look te creëren, met behoud van het klassieke Aeon gevoel.</description>
+		<description lang="pl_PL">Całkowicie przeprojektowana skóra Aeon, o nowoczesnym wyglądzie, zachowując klasyczny układ skóry Aeon.</description>
+		<description lang="pt_BR">Design completamente novo para criar um look moderno, mantendo o feeling do Aeon Clássico.</description>
+		<description lang="pt_PT">Completamente redesenhado para criar um visual moderno enquanto retém o toque clássico Aeon.</description>
+		<description lang="ru_RU">полностью переделенная, модернизированная классическая обложка Aeon.</description>
+		<description lang="sk_SK">Kompletne prepracovaný dizajn s moderným vzhľadom pri zachovaní klasického štýlu Aeon.</description>
+		<description lang="sv_SE">Totalt omarbetad för att skapa ett modernt utseende, samtidigt som man behåller den klassiska Aeon-känslan.</description>
+		<description lang="th_TH">การออกแบบใหม่หมดจด เพื่อสร้างรูปลักษณ์ทันสมัย, ​​ขณะที่ยังคงความรู้สึกคลาสสิคของ Aeon.</description>
+		<description lang="vi_VN">Thiết kế lại hoàn toàn để tạo nên một phong cách hiện đại, trong khi đó vẫn duy trì một cảm giác Aeon cổ điển.</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvo.csi.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]CSI Spezial[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+    	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvo.disney.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Disney Chanel[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvo.ferrari.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Formel 1 Ferrari[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvo.ff.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Fast and Furious[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvo.frozen.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Frozen[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvo.glas.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Glas[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvo.glow.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Silvo Glow[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvo.hsv.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Nur der HSV[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvo.jw.16"
+  version="5.8.7-3.08"
+  name="[COLOR lime]Jurassik World[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvo.lego2.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Lego 2[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.silvo.life.style.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Life Style[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.aeon.nox.tomb.raider.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Tomb Raider[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+	<addon id="skin.aeonmq5.pixar.16" version="8.2.3" name="[COLOR lime]Aeon MQ 5 Pixar[/COLOR]  (16)" provider-name="MarcosQui">
+	<requires>
+	<import addon="xbmc.gui" version="5.10.0"/>
+	<import addon="script.aeonmq5.extrapack" version="1.0.1"/>
+	<import addon="script.favourites" version="4.0.4"/>
+	<import addon="script.artwork.downloader" version="12.0.11"/>
+	<import addon="script.randomandlastitems" version="2.0.3"/>
+	<import addon="script.games.rom.collection.browser" version="2.1.2"/>
+	<import addon="script.artistslideshow" version="1.4.6"/>
+	<import addon="script.tv.show.next.aired" version="6.0.10"/>
+	<import addon="service.skin.widgets" version="0.0.19"/>
+	<import addon="script.cu.lrclyrics" version="1.0.1"/>
+	<import addon="script.videolanguage" version="0.0.6"/>
+	<import addon="script.globalsearch" version="1.1.1"/>
+	<import addon="script.toolbox" version="1.0.1"/>
+	<import addon="script.image.resource.select" version="0.0.5"/>
+	</requires>
+	<extension point="xbmc.gui.skin"  effectslowdown="0.75" debugging="false">
+	<res width="1280" height="720" aspect="16:9" default="true" folder="720p"/>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+	<platform>all</platform>
+	</extension>
+</addon>
+
+	<addon id="skin.aeonmq5.startrek.16" version="8.2.3" name="[COLOR lime]Aeon MQ 5 Star Trek[/COLOR]  (16)" provider-name="MarcosQui">
+	<requires>
+	<import addon="xbmc.gui" version="5.10.0"/>
+	<import addon="script.aeonmq5.extrapack" version="1.0.1"/>
+	<import addon="script.favourites" version="4.0.4"/>
+	<import addon="script.artwork.downloader" version="12.0.11"/>
+	<import addon="script.randomandlastitems" version="2.0.3"/>
+	<import addon="script.games.rom.collection.browser" version="2.1.2"/>
+	<import addon="script.artistslideshow" version="1.4.6"/>
+	<import addon="script.tv.show.next.aired" version="6.0.10"/>
+	<import addon="service.skin.widgets" version="0.0.19"/>
+	<import addon="script.cu.lrclyrics" version="1.0.1"/>
+	<import addon="script.videolanguage" version="0.0.6"/>
+	<import addon="script.globalsearch" version="1.1.1"/>
+	<import addon="script.toolbox" version="1.0.1"/>
+	<import addon="script.image.resource.select" version="0.0.5"/>
+	</requires>
+	<extension point="xbmc.gui.skin"  effectslowdown="0.75" debugging="false">
+	<res width="1280" height="720" aspect="16:9" default="true" folder="720p"/>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+	<platform>all</platform>
+	</extension>
+</addon>
+
+	<addon id="skin.aeonmq7.WD.16" version="1.4.1" name="[COLOR lime]Aeon MQ 7 Walking DEAD[/COLOR]  (16)" provider-name="MarcosQui">
+	<requires>
+	<import addon="xbmc.gui" version="5.10.0"/>
+	<import addon="service.skin.widgets" version="0.0.30"/>
+	<import addon="service.library.data.provider" version="0.0.9"/>
+	<import addon="service.nextup.notification" version="1.0.8"/>
+	<import addon="script.favourites" version="6.0.2"/>
+	<import addon="script.artwork.downloader" version="12.0.29"/>
+	<import addon="script.randomandlastitems" version="2.2.2"/>
+	<import addon="script.games.rom.collection.browser" version="2.1.2"/>
+	<import addon="script.artistslideshow" version="1.8.6"/>
+	<import addon="script.tv.show.next.aired" version="6.0.14"/>
+	<import addon="script.cu.lrclyrics" version="3.2.0"/>
+	<import addon="script.globalsearch" version="5.0.0"/>
+	<import addon="script.extendedinfo" version="3.1.1" />
+	<import addon="script.skin.helper.service" version="1.0.23" />
+	<import addon="script.image.resource.select" version="0.0.7"/>
+	<import addon="resource.uisounds.aeonmq6" version="1.0.0"/>
+	<import addon="resource.images.moviegenreicons.xzener-flat" version="0.0.1"/>
+	<import addon="resource.images.musicgenreicons.text" version="0.0.5"/>
+	<import addon="resource.images.weathericons.animated" version="0.0.4"/>
+	</requires>
+	<extension point="xbmc.gui.skin" effectslowdown="0.75" debugging="false">
+	<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+	<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="skin.angry.birds.16"
+  version="1.0"
+  name="[COLOR lime]Angry Birds Movie[/COLOR]  (16)"
+  provider-name="The Angry Birds Movie Mod by ClassicNancy |Created by BigNoid ">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+		<import addon="script.image.resource.select" version="0.0.5"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="21x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<forum>https://forums.tvaddons.ag/kodi-look-and-feel/ </forum>
+		<website>https://www.tvaddons.ag/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="skin.apptv" version="1.4.7" name="AppTV"	provider-name="Wyrm,SamFisher">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="resource.uisounds.apptv" version="1.0.2"/>
+		<import addon="script.skin.helper.service" version="1.0.95"/>
+	</requires>
+	<extension point="xbmc.gui.skin" effectslowdown="1" debugging="false">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p"/>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">Ein von Apple TV inspiriertes Skin für Kodi</summary>
+		<summary lang="el">Ένα κέλυφος για το Kodi, εμπνευσμένο από το Apple TV</summary>
+		<summary lang="en">A AppleTV inspired skin for Kodi</summary>
+		<summary lang="en_AU">An AppleTV inspired skin for Kodi</summary>
+		<summary lang="en_NZ">A AppleTV inspired skin for Kodi</summary>
+		<summary lang="en_US">A AppleTV inspired skin for Kodi</summary>
+		<summary lang="fr">Un habillage pour Kodi inspiré de l'AppleTV</summary>
+		<summary lang="fr_CA">Un habillage pour Kodi inspiré d'AppleTV</summary>
+		<summary lang="gl">Un tema para Kodi inspirado no AppleTV</summary>
+		<summary lang="he">מעטפת עבור Kodi בהשראת AppleTV</summary>
+		<summary lang="it">Una skin per Kodi ispirata a AppleTV</summary>
+		<summary lang="ko">애플 TV에 영감을 받은 Kodi용 스킨</summary>
+		<summary lang="lt">AppleTV įkvėpta Kodi teminė išvaizda</summary>
+		<summary lang="ms">Kulit yang diilham dari AppleTV untuk Kodi</summary>
+		<summary lang="nl">Een op AppleTV geïnspireerde skin voor Kodi</summary>
+		<summary lang="pl">Skóra inspirowana interfejsem AppleTV</summary>
+		<summary lang="pt">Um tema para o Kodi inspirado na AppleTV</summary>
+		<summary lang="pt_BR">Uma Skin inspirada na Apple TV</summary>
+		<description lang="de">AppTV ist ein vom Apple TV inspiriertes Skin für Kodi. Es bietet eine sehr ressourcensparende, minimalistische Benutzeroberfläche und gleichzeitig Zugang zu den erweiterten Kodi-Funktionen, die nicht in der originalen Apple TV-Oberfläche vorhanden sind.</description>
+		<description lang="el">Το AppTV είναι ένα κέλυφος για το Kodi, εμπνευσμένο από το AppleTV. Διαθέτει ένα ιδιαίτερα ελαφρύ, μινιμαλιστικό περιβάλλον εργασίας, ενώ παρέχει πρόσβαση σε ένα πλήθος προχωρημένων λειτουργιών του Kodi που δεν είναι διαθέσιμες στο πρωτότυπο περιβάλλον του AppleTV.</description>
+		<description lang="en">AppTV is a AppleTV inspired skin for Kodi. It provides a very light weight minimalist gui while also allowing access to a number of advanced Kodi features not available in the original AppleTV interface.</description>
+		<description lang="en_AU">AppTV is an AppleTV inspired skin for Kodi. It provides a very light weight minimalist gui while also allowing access to a number of advanced Kodi features not available in the original AppleTV interface.</description>
+		<description lang="en_NZ">AppTV is a AppleTV inspired skin for Kodi. It provides a very light weight minimalist gui while also allowing access to a number of advanced Kodi features not available in the original AppleTV interface.</description>
+		<description lang="en_US">AppTV is a AppleTV inspired skin for Kodi. It provides a very light weight minimalist gui while also allowing access to a number of advanced Kodi features not available in the original AppleTV interface.</description>
+		<description lang="fr">AppTV est un habillage pour Kodi inspiré de l'AppleTV. Il fournit une interface minimaliste légère tout en permettant l'accès à bon nombre des caractéristiques avancées de Kodi non disponibles dans l'interface AppleTV d'origine.</description>
+		<description lang="fr_CA">AppTV est un habillage pour Kodi inspiré d'AppleTV. Il propose une IUG très légère et minimaliste tout en permettant l'accès à plusieurs fonctions avancées de Kodi qui ne sont pas proposées dans l'interface originale d'AppleTV.</description>
+		<description lang="it">AppTV è una skin ispirata a AppleTV per Kodi. Fornisce un'interfaccia molto leggera e minimalistica e permette di accedere ad alcune funzioni avanzate di Kodi non disponibili nell'interfaccia originale di AppleTV.</description>
+		<description lang="ko">AppTV는 애플TV에서 영감을 받아 만든 Kodi용 스킨입니다. GUI를 최소화하여 가벼우면서도 애플TV 인터페이스에서는 사용할 수 없는 Kodi의 여러가지 고급 기능을 사용할 수 있습니다.</description>
+		<description lang="lt">AppTV yra AppleTV įkvėpta teminė išvaizda, skirta Kodi. Ji suteikia labai lengvą, minimalistinę grafinę vartotojo sąsają, tuo pačiu suteikiant galimybę naudoti daugelį pažangių Kdi funkcijų, kurių nėra originalioje AppleTV sąsajoje.</description>
+		<description lang="ms">AppTV adalah kulit yang diilham dari AppleTV untuk Kodi. Ia menyediakan gui minimalis yang sangat ringkas juga membolehkan capaian ke beberapa fitur lanjutan Kodi yang tidak tersedia dalam antaramuka AppleTV yang asal.</description>
+		<description lang="nl">AppTV is een op AppleTV geïnspireerde skin voor Kodi. het voorziet in een zeer lichtgewichte minimalistische gui terwijl eveneens toegang is tot een aantal geavanceerde Kodi features die niet beschikbaar zijn in de orginele AppleTV interface.</description>
+		<description lang="pl">ApplTV jest skórą inspirowaną wyglądem interfejsu AppleTV. Dostarcza wyjątkowo lekki i minimalistyczny interfejs użytkownika umożliwiający dostęp do wielu zaawansowanych funkcji Kodi, niedostępnych w oryginalnym interfejsie AppleTV.</description>
+		<description lang="pt_BR">AppTV é uma skin inspirada na AppleTV para Kodi. Fornece uma GUI bem leve e minimalista  ao mesmo empo que permite acesso a inúmeras funções avançadas do Kodinão disponíveis na interface original da AppleTV.</description>
+		<disclaimer lang="de">Poste Funktionswünsche, Fragen und Fehler in [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="el">Για βοήθεια, αιτήματα και αναφορές προβλημάτων, μεταβείτε στο [CR]http://forum.kodi.tv/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="en">Post help and feature/bug requests to [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="en_AU">Post help and feature/bug requests to [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="en_NZ">Post help and feature/bug requests to [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="en_US">Post help and feature/bug requests to [CR]http://forum.kodi.tv/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="es">Postea bugs y preguntas en [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="fr">Publier les demandes d'aide, de fonction, de bogue sur [CR]http://forum.kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="fr_CA">Publier les demandes d'aide, de fonction, de bogue sur [CR]http://forum.kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="gl">Publica peticións de axuda e características/erros en [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="hu">Hiba és fejlesztési javaslatot jelezd az alábbi oldalon:[CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="it">Chiedi aiuto, richiedi funzioni/segnala bug a [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="ko">도움 요청, 기능 제안, 버그 보고[CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="lt">Paprašykite pagalbos ar paskelbkite funkcijos/klaidos užklausą čia: [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="ms">Poskan bantuan dan permintaan fitur/pepijat ke [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="nl">Stuur help en functie/fout vragen naar [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="pl">Prośby o pomoc, zgłoszenia błędów oraz prośby o nowej funkcje zamieść na forum[CR]http://forum.kodi.tv/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="pt_BR">Postar pedidos de ajuda/funcionalidades e bugs em  [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="sv">Posta hjälp-/funktionsförfrågningar samt buggrapporter till&#10;[CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="zh">请在论坛发布求助及功能需求/报告错误 [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<platform>all</platform>
+		<license>Licensed under the Apache License, Version 2.0</license>
+		<forum>http://forum.Kodi.org/forumdisplay.php?fid=76</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/wyrm65/skin.apptv</source>
+	</extension>
+</addon>
+
+<addon id="skin.apptv.16" version="1.4.7" name="[COLOR lime]AppTV[/COLOR]  (16)"	provider-name="Wyrm,SamFisher">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="resource.uisounds.apptv" version="1.0.2"/>
+		<import addon="script.skin.helper.service" version="1.0.95"/>
+	</requires>
+	<extension point="xbmc.gui.skin" effectslowdown="1" debugging="false">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p"/>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<license>Licensed under the Apache License, Version 2.0</license>
+		<forum>http://forum.Kodi.org/forumdisplay.php?fid=76</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/wyrm65/skin.apptv</source>
+	</extension>
+</addon>
+
+<addon
+	id="skin.avalon.16"
+	version="2.4.9"
+	name="[COLOR lime]Avalon[/COLOR]  (16)"
+	provider-name="reazorFX">
+	<requires>
+		<import version="5.10.0" addon="xbmc.gui"/>
+		<import addon="script.favourites" version="3.2.0"/>
+		<import addon="service.skin.widgets" version="0.0.27"/>
+	</requires>
+	<extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.00">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+        <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+	</extension>
+</addon>
+
+<addon
+  id="skin.batman.arkham.city.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Batman Arkham CITY[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon id="skin.bello.16" version="3.0.9" name="[COLOR lime]Bello[/COLOR]  (16)" provider-name="Nessus">
+  <requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="service.skin.widgets" version="0.0.29"/>
+		<import addon="script.tv.show.next.aired" version="6.0.10"/>
+		<import addon="script.artwork.downloader" version="12.0.24"/>
+		<import addon="script.globalsearch" version="2.0.8"/>
+		<import addon="script.artistslideshow" version="1.6.5"/>
+		<import addon="script.playalbum" version="1.0.1"/>
+		<import addon="script.extendedinfo" version="1.0.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.4"/>
+	</requires>
+	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="0.75" debugging="false">
+	    <res width="1280" height="720" aspect="16:9" default="true" folder="720p"/>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+    <license>Creative Commons Attribution-NonCommercial-Share Alike 4.0 International Public License</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=158577</forum>
+    <email>nessus85100 at hotmail dot com</email>
+    <source>https://github.com/Nessus85100/Bello</source>
+  </extension>
+</addon>
+
+<addon
+	id="skin.box.16"
+	version="4.0.2"
+	name="[COLOR lime]BOX[/COLOR]  (16)"
+	provider-name="DjCisco">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.favourites" version="6.0.1"/>
+		<import addon="service.skin.widgets" version="0.0.29"/>
+	</requires>
+	<extension
+		point="xbmc.gui.skin"
+		debugging="false"
+		effectslowdown="1.00">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<license>Creative Commons Attribution-Share Alike 3.0 Unported License</license>
+		<forum>http://forum.kodi.tv/forumdisplay.php?fid=217</forum>
+		<source>https://github.com/DjCisco/skin.BOX</source>
+	</extension>
+</addon>
+
+<addon
+  id="skin.bvb.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Borussia Dortmund[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.car.pc.16"
+  version="3.2.1"
+  name="[COLOR lime]Car-PC[/COLOR]  (16)"
+  provider-name="Dorel">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="Textures.xbt"
+    effectslowdown="0.76"
+    debugging="false">
+    <res width="1280" height="720" aspect="16:9" folder="16x9" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+      <source></source>
+  </extension>
+</addon>
+
+<addon
+  id="skin.confluence.hwy2016.16"
+  version="2.5.9.011"
+  name="[COLOR lime]Confluence - Husham - Original Mod by TheHighway[/COLOR]  (16)"
+  provider-name="The[COLOR tan]Highway[/COLOR], Jezz_X, Team Kodi, Husham.com">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="script.artistslideshow" version="1.8.0"/>
+    <import addon="script.favourites" version="6.0.2"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="textures.xbt"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+    <platform>all</platform>
+        <website>http://www.husham.com</website>
+  </extension>
+</addon>
+
+<addon
+	id="skin.confluence.pat.16"
+	name="[COLOR lime]Confluence-Pat[/COLOR] (16)"
+	provider-name="mad-max / blauesgruen (credits Team-XBMC)"
+	version="1.2.1">
+  <requires>
+		<import addon="xbmc.gui" version="5.10.0" />
+		<import addon="script.image.resource.select" version="0.0.5"/>
+		<import addon="resource.images.weathericons.outline" version="0.0.4"/>
+		<import addon="resource.images.weatherfanart.multi" version="0.0.4"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="skin.confluence.skunkv2.16"
+  version="1.0.1"
+  name="[COLOR lime]Confluence SkunkV2[/COLOR]  (16)"
+  provider-name="Skunkfu, Jezz_X., K.U.S">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+	<import addon="script.skinshortcuts" version="1.0.6"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+   <summary lang="de">Confluence Skin angepasst von Skunkfu, KODI Unlimited Support</summary>
+    <summary lang="en">Confluence skin modded by Skunkfu, KODI Unlimited Support</summary>
+    <description lang="de">Basiert auf dem original Confluence Skin und wurde von Skunkfu angepasst. KODI Unlimited Support</description>
+    <description lang="en">Based on the Confluence Skin and modded by Skunkfu. KODI Unlimited Support</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="skin.confluence16.hsk.16"
+  version="3.3.6"
+  name="[COLOR lime]Confluence16-HSK[/COLOR]  (16)"
+  provider-name="HSK, Jezz_X, Team Kodi">
+  <requires>
+	<import addon="xbmc.gui" version="5.10.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de">Confluence Skin angepasst von HSK Gruppe</summary>
+    <summary lang="en">Confluence skin modded by HSK Group</summary>
+    <description lang="de">Basiert auf dem original Confluence Skin und wurde von HSK Gruppe angepasst</description>
+    <description lang="en">Based on the Confluence Skin and modded by HSK Group</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+    id="skin.eminence.zeev.16"
+    version="2.5.4"
+    name="[COLOR lime]Eminence Zeev[/COLOR]  (16)"
+    provider-name="jurialmunkey">
+  <requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+		<import addon="script.skinshortcuts" version="0.6.6"/>
+		<import addon="script.artwork.downloader" version="12.0.20"/>
+		<import addon="plugin.program.autocompletion" version="1.0.0"/>
+		<import addon="script.image.resource.select" version="0.1.0"/>
+		<import addon="resource.images.weatherfanart.single" version="0.0.6"/>
+		<import addon="script.extendedinfo" version="4.6.0"/>
+  </requires>
+  <extension
+  point="xbmc.gui.skin"
+  defaultthemename="textures.xbt"
+  debugging="false"
+  effectslowdown="1">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="skin.estuary.16" version="0.7.9.023" name="[COLOR lime]Estuary[/COLOR]  (16)" provider-name="phil65, Piers, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+	</requires>
+	<extension
+		point="xbmc.gui.skin"
+		defaultthemename="Textures.xbt"
+		debugging="false"
+		effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>http://forum.kodi.tv/</forum>
+		<source>https://github.com/xbmc/skin.estuary/</source>
+	</extension>
+</addon>
+
+<addon
+  id="skin.ff2.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Fast and Furious 2[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.game.of.thrones.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Game of Thrones[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon id="skin.halloween.16" version="1.1" name="[COLOR lime]Hallowe'en[/COLOR]  (16)" provider-name="ClassicNancy">
+  	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+		<import addon="script.image.resource.select" version="0.0.5"/>
+	</requires>
+    <extension point="xbmc.gui.skin" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="skin.horizonzv.isengard.16" name="[COLOR lime]Horizonz V[/COLOR]  (16)" version="1.9.0.7" provider-name="blauesgruen">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<!-- <import addon="script.image.resource.select" version="0.0.5"/>
+		<import addon="service.library.data.provider" version="0.1.2"/>
+		<import addon="resource.images.languageflags.colour" version="0.0.3"/>
+		<import addon="script.artwork.downloader" version="12.0.29"/>
+		<import addon="script.artistslideshow" version="1.8.6"/>
+		<import addon="script.globalsearch" version="6.0.1"/>
+		<import addon="plugin.audio.radio_de" version="2.3.1"/>
+		<import addon="resource.images.weathericons.outline" version="0.0.4"/>
+		<import addon="script.extendedinfo" version="3.1.1"/>
+		<import addon="resource.images.weatherfanart.multi" version="0.0.5"/> -->
+	</requires>
+	<extension point="xbmc.gui.skin" defaultthemename="textures.xbt" debugging="false" effectslowdown="0.75">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+	</extension>
+</addon>
+
+<addon
+  id="skin.hybrid.16"
+  version="100.5.1"
+  name="[COLOR lime]Hybrid - SchisM Mod[/COLOR]  (16)"
+  provider-name="Mudislander-SchisM Mod">
+  <requires>
+		<import	addon="xbmc.gui" version="5.10.0"/>
+		<import addon="service.library.data.provider" version="0.1.5"/>
+		<import addon="script.randomandlastitems" version="2.2.2"/>
+		<import addon="service.skin.widgets" version="0.0.32"/>
+		<import addon="script.favourites" version="6.0.3"/>
+		<import addon="script.simpleplaylists" version="1.1.1"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+		<import addon="script.image.resource.select" version="0.1.1"/>
+	</requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+	<license>Creative Commons Attribution-ShareAlike 3.0 license</license>
+	<forum>http://forum.kodi.tv/forumdisplay.php?fid=177</forum>
+	<website></website>
+	<email></email>
+	<source>https://github.com/Mudislander/skin.hybrid/</source>
+  </extension>
+</addon>
+
+<addon
+  id="skin.influence.16"
+  version="1.1.9"
+  name="[COLOR lime]Influence[/COLOR]  (16)"
+  provider-name="Ipéfix, Jezz_X, Team Kodi">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+	<import addon="script.skinshortcuts" version="0.4.5"/>
+	<import addon="service.skin.widgets" version="0.0.32"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="skin.influence.black.16"
+  version="1.1.9"
+  name="[COLOR lime]Influence Black[/COLOR]  (16)"
+  provider-name="Ipéfix, Jezz_X, Team Kodi">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+	<import addon="script.skinshortcuts" version="0.4.5"/>
+	<import addon="service.skin.widgets" version="0.0.32"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="skin.influence.nascar.16"
+  version="1.2.2"
+  name="[COLOR lime]NASCAR[/COLOR]  (16)"
+  provider-name="Jezz_X, Team Kodi">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+	<import addon="script.skinshortcuts" version="0.4.5"/>
+	<import addon="service.skin.widgets" version="0.0.32"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="skin.iron.man.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]Ironman[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.jx720.16"
+  version="2.0.1"
+  name="[COLOR lime]XBOX JX 720[/COLOR]  (16)"
+  provider-name="Jezz_X">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="textures.xbt"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+	<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+	id="skin.kover.16"
+	version="1.1.0"
+	name="[COLOR lime]KOver[/COLOR]  (16)"
+	provider-name="Jayz2K">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.skinshortcuts" version="0.6.5" />
+		<import addon="script.skin.helper.service" version="1.0.40"/>
+		<import addon="service.skin.widgets" version="0.0.30"/>
+	</requires>
+	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1.00" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<license>Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</license>
+		<forum>http://forum.kodi.tv/forumdisplay.php?fid=252</forum>
+		<website>https://plus.google.com/communities/101384208271707123426</website>
+		<email></email>
+		<source>https://github.com/Jayz2K/skin.KOver</source>
+	</extension>
+</addon>
+
+<addon id="skin.love.is.16" version="1.0" name="[COLOR lime]LoVe IS[/COLOR]  (16)" provider-name="ClassicNancy, Jester, Pecinko">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="script.favourites" version="6.0.3"/>
+    <import addon="service.skin.widgets" version="0.0.32"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+     <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	 <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+  </extension>
+</addon>
+
+<addon
+	id="skin.moddedconfluence.4.16"
+	name="[COLOR lime]Confluence-MOD Vol. 4.2[/COLOR]  (16)"
+	provider-name="mad-max / blauesgruen (credits Team-XBMC)"
+	version="1.2.0">
+  <requires>
+		<import addon="xbmc.gui" version="5.10.0" />
+		<import addon="script.image.resource.select" version="0.0.5"/>
+		<import addon="resource.images.weathericons.outline" version="0.0.4"/>
+		<import addon="resource.images.weatherfanart.multi" version="0.0.4"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="skin.naked.16"
+  version="0.0.2"
+  name="[COLOR lime]Naked[/COLOR]  (16)"
+  provider-name="primaeval">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="skin.neon.16"
+  version="5.0.1"
+  name="[COLOR lime]Neon[/COLOR]  (16)"
+  provider-name="kib, bumpaneer">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="service.library.data.provider" version="0.0.7"/>
+    <import addon="script.favourites" version="6.0.1"/>
+    <import addon="script.artwork.downloader" version="12.0.29"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    effectslowdown="1"
+    debugging="false">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/forumdisplay.php?fid=139</forum>
+    <source>https://github.com/kibje/skin.neon/tree/Helix</source>
+    <email></email>
+  </extension>
+</addon>
+
+<addon
+	id="skin.new.york.16"
+	name="[COLOR lime]New York[/COLOR]  (16)"
+	provider-name="mad-max / blauesgruen (credits Team-XBMC)"
+	version="1.2.1">
+  <requires>
+		<import addon="xbmc.gui" version="5.10.0" />
+		<import addon="script.image.resource.select" version="0.0.5"/>
+		<import addon="resource.images.weathericons.outline" version="0.0.4"/>
+		<import addon="resource.images.weatherfanart.multi" version="0.0.4"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="skin.paradise.16"
+  version="1.02"
+  name="[COLOR lime]Paradise[/COLOR]  (16)"
+  provider-name="ClassicNancy">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+		<import addon="script.image.resource.select" version="0.0.5"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="21x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+     	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<forum>https://forums.tvaddons.ag/kodi-look-and-feel/ </forum>
+		<website>https://www.tvaddons.ag/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="skin.pm3.hd.16"
+  version="2.5.1"
+  name="[COLOR lime]PM3.HD[/COLOR]  (16)"
+  provider-name="Jezz_X, Team XBMC, qqbenq">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="Textures.xbt"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+     <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="skin.revolve.16" version="4.2.1" name="[COLOR lime]Revolve[/COLOR]  (16)" provider-name="ransomed, mKo, relyter, Malthus">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+        <import addon="script.revolve.service" version="1.1.1" />
+        <import addon="script.cu.lrclyrics" version="2.0.12" optional="true" />
+        <import addon="script.favourites" version="6.0.3" optional="true" />
+        <import addon="script.globalsearch" version="5.0.0" optional="true" />
+        <import addon="script.grab.fanart" version="0.14.1" optional="true" />
+        <import addon="script.rss.editor" version="2.0.4" optional="true" />
+        <import addon="script.tv.show.next.aired" version="6.0.12" optional="true" />
+        <import addon="service.library.data.provider" version="0.0.6" optional="true" />
+        <import addon="service.scrobbler.lastfm" version="0.0.4" optional="true" />
+        <import addon="service.skin.widgets" version="0.0.29" optional="true" />
+	</requires>
+
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+        <language>en</language>
+        <platform>all</platform>
+        <license>Creative Commons Attribution-ShareAlike 3.0 Unported License</license>
+        <forum></forum>
+        <website></website>
+        <email></email>
+        <source>https://github.com/Malthus/skin.revolve/</source>
+	</extension>
+</addon>
+
+<addon id="skin.santasvillage.16" version="1.0" name="[COLOR lime]Santa's Village[/COLOR]  (16)" provider-name="ClassicNancy">
+    <requires>
+        <import addon="xbmc.gui" version="5.10.0"/>
+        <import addon="script.favourites" version="3.2.0"/>
+        <import addon="script.skinshortcuts" version="0.2.4"/>
+        <import addon="script.skin.helper.service" version="0.0.11"/>
+        <import addon="resource.uisounds.santasvillage" version="1.0.1"/>
+        <import addon="resource.images.languageflags.colour" version="0.0.2"/>
+        <import addon="resource.images.studios.white" version="0.0.6"/>
+        <import addon="resource.images.recordlabels.white" version="0.0.6"/>
+		<!--<import addon="script.extendedinfo" version="2.0.0"/>-->
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+       <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	   <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+    </extension>
+</addon>
+
+
+<addon
+	id="skin.sky.16"
+	version="1.0"
+	name="[COLOR lime]Sky[/COLOR]  (16)"
+	provider-name="ClassicNancy">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.skinshortcuts" version="0.6.5"/>
+		<import addon="script.skin.helper.service" version="1.0.60"/>
+	</requires>
+	<extension
+		point="xbmc.gui.skin"
+		debugging="false"
+		effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<forum>https://forums.tvaddons.ag/kodi-look-and-feel/ </forum>
+		<website>https://www.tvaddons.ag/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="skin.sky.tv.16"
+  version="5.8.7"
+  name="[COLOR lime]Sky TV[/COLOR]  (16)"
+  provider-name="BigNoid">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+		<import addon="script.image.resource.select" version="0.0.5"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="21x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="skin.steampunked.16"
+  version="5.8.7"
+  name="[COLOR lime]Steampunked[/COLOR]  (16)"
+  provider-name="BigNoid">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+		<import addon="scpt.image.resource.select" version="0.0.5"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="21x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="skin.the.walking.dead.16"
+  version="5.8.7-3.0.8"
+  name="[COLOR lime]The Walking Dead[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<description lang="de_DE">Guidos Skin Mods für Hardware-Software-Kodi.DE</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+<addon
+  id="skin.thegodfather.isengard.16"
+  version="1.1"
+  name="[COLOR lime]The Godfather[/COLOR]  (16)"
+  provider-name="Godfather Mod by ClassicNancy |Created by BigNoid | Modded by SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.2.4"/>
+		<import addon="service.library.data.provider" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<description lang="en">Completely redesigned by ClassicNancy to create a new modern look. Thank you to BigNoid and Silvo for their awesome skin.</description>
+		<forum>https://forums.tvaddons.ag/kodi-look-and-feel/ </forum>
+		<website>https://www.tvaddons.ag/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="skin.transformers.16"
+  version="5.8.7-3.0.9"
+  name="[COLOR lime]Transformers[/COLOR]  (16)"
+  provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.7"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+
+
+<addon
+	id="skin.unity.16"
+	version="0.5.1"
+	name="[COLOR lime]Unity[/COLOR]  (16)"
+	provider-name="Eddage, Bumpaneer">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.skinshortcuts" version="1.0.8"/>
+		<import addon="script.skin.helper.service" version="1.0.60"/>
+	</requires>
+	<extension
+		point="xbmc.gui.skin"
+		debugging="false"
+		effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.kodi.tv/forumdisplay.php?fid=244</forum>
+		<source>https://github.com/bumpaneer/skin.unity/tree/Jarvis</source>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="skin.walking.dead2.16" version="1.0" name="[COLOR lime]The Walking Dead 2[/COLOR]  (16)" provider-name="Mod by ClassicNancy |BigNoid">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="1080i" />
+	</extension>
+	<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+	<extension point="xbmc.addon.metadata">
+	</extension>
+</addon>
+
+
+<addon
+
+  id="skin.winter.wonderland.16"
+
+  version="1.2"
+
+  name="[COLOR lime]Winter Wonderland[/COLOR]  (16)"
+
+  provider-name="Winter Wonderland Mod by ClassicNancy |Created by BigNoid | Modded by SiLVO">
+
+	<requires>
+
+		<import addon="xbmc.gui" version="5.10.0"/>
+
+		<import addon="script.grab.fanart" version="0.12.8"/>
+
+		<import addon="script.skinshortcuts" version="0.2.4"/>
+
+		<import addon="service.library.data.provider" version="0.0.1"/>
+
+	</requires>
+
+	<extension
+
+	  point="xbmc.gui.skin"
+
+	  debugging="false"
+
+	  effectslowdown="0.75">
+
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+        <forum>https://forums.tvaddons.ag/kodi-look-and-feel/ </forum>
+		<website>https://www.tvaddons.ag/</website>
+		<platform>all</platform>
+
+	</extension>
+
+</addon>
+
+<addon id="skin.xperience1080.16" version="5.1.540" name="[COLOR lime]Xperience1080[/COLOR]  (16)" provider-name="Piers|xhaggi">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0" />
+		<import addon="service.skin.widgets" version="0.0.29" />
+		<import addon="script.artwork.downloader" version="12.0.29" />
+		<import addon="script.tv.show.next.aired" version="6.0.13" />
+		<import addon="script.globalsearch" version="4.0.2" />
+		<import addon="script.favourites" version="6.0.1" />
+		<import addon="script.artistslideshow" version="1.8.2" />
+		<import addon="script.videolanguage" version="0.1.0" />
+		<import addon="script.randomandlastitems" version="2.2.2" />
+		<import addon="script.toolbox" version="1.0.1" />
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.musicgenreicons.grey" version="0.0.5"/>
+		<import addon="resource.images.moviegenreicons.white" version="0.0.5"/>
+		<import addon="resource.images.weatherfanart.multi" version="0.0.6"/>
+	</requires>
+	<extension point="xbmc.gui.skin" effectslowdown="0.80" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Clean, modern, and elegant panel-based Skin.</summary>
+		<summary lang="de">Aufgeräumtes, modernes, und elegant kachel-basiertes Skin.</summary>
+		<description lang="en">Xperience1080 delivers a skin with a focus on graphical quality, smooth animations, and very well integrated functions and Add-ons.</description>
+		<description lang="de">Xperience1080 verspricht einen Skin mit hohem Anspruch auf grafische Qualität, flüssigen Animationen und optimal in den Skin integrierten Funktionen und Add-Ons.</description>
+		<disclaimer lang="en">Mouse and Touch inputs are not supported.</disclaimer>
+		<disclaimer lang="de">Maus und Touch-Eingaben werden nicht unterstützt.</disclaimer>
+		<platform>all</platform>
+		<license>Creative Commons Attribution-Noncommercial-Share Alike 3.0</license>
+		<forum>http://forum.kodi.tv/forumdisplay.php?fid=197</forum>
+		<source>https://github.com/vonH/Xperience1080</source>
+	</extension>
+</addon>
+
+<addon
+  id="skin.xunity.nox.xunity.16"
+  version="5.8.4-4.0.2"
+  name="[COLOR lime]Xunity Nox: Xunity[/COLOR]  (16)"
+  provider-name="Xunity">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.6.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="script.toolbox" version="1.1.0"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+		<import addon="script.image.resource.select" version="0.0.5"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	<description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+	</extension>
+</addon>
+</addons>
