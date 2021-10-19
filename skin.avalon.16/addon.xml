@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="skin.avalon.16"
+	version="2.4.9"
+	name="[COLOR lime]Avalon[/COLOR]  (16)"
+	provider-name="reazorFX">
+	<requires>
+		<import version="5.10.0" addon="xbmc.gui"/>
+		<import addon="script.favourites" version="3.2.0"/>
+		<import addon="service.skin.widgets" version="0.0.27"/>		
+	</requires>
+	<extension
+    point="xbmc.gui.skin"    
+    debugging="false"
+    effectslowdown="1.00">		
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+        <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+	</extension>
+</addon>
