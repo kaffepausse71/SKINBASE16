@@ -34,7 +34,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.skinbase.16" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 16" version="3.1.20" provider-name="[COLOR orange]GUIDO[/COLOR] | [COLOR skyblue]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
+<addon id="repository.skinbase.16" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 16" version="3.1.16" provider-name="[COLOR orange]GUIDO[/COLOR] | [COLOR skyblue]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
 	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
 	<dir>
 		<info compressed="false">https://downloads.guidos-skinbase.de/skins16/addons.xml</info>
@@ -45,6 +45,11 @@
 		<info compressed="false">https://downloads.guidos-skinbase.de/addons17/addons.xml</info>
 		<checksum>https://downloads.guidos-skinbase.de/addons17/addons.xml.md5</checksum>
 		<datadir zip="true">https://downloads.guidos-skinbase.de/addons17/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://downloads.guidos-skinbase.de/repos/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/repos/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/repos/</datadir>
 	</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
